@@ -1,0 +1,15 @@
+{"time":"2025-06-17T01:00:13.5200723+07:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"C:\\Users\\GIANG\\Desktop\\FPTU\\DLP\\Chatbot\\wandb\\run-20250617_010013-8hskscyu\\logs\\debug-core.log"}
+{"time":"2025-06-17T01:00:15.7153145+07:00","level":"INFO","msg":"stream: created new stream","id":"8hskscyu"}
+{"time":"2025-06-17T01:00:15.7153145+07:00","level":"INFO","msg":"stream: started","id":"8hskscyu"}
+{"time":"2025-06-17T01:00:15.7153145+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"8hskscyu"}
+{"time":"2025-06-17T01:00:15.7159157+07:00","level":"INFO","msg":"handler: started","stream_id":"8hskscyu"}
+{"time":"2025-06-17T01:00:15.7153145+07:00","level":"INFO","msg":"sender: started","stream_id":"8hskscyu"}
+{"time":"2025-06-17T01:00:16.1669016+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-17T01:06:19.0739871+07:00","level":"INFO","msg":"stream: closing","id":"8hskscyu"}
+{"time":"2025-06-17T01:06:19.0739871+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-17T01:06:19.0753853+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-17T01:06:23.4805778+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-17T01:06:24.0356451+07:00","level":"INFO","msg":"handler: closed","stream_id":"8hskscyu"}
+{"time":"2025-06-17T01:06:24.0356451+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8hskscyu"}
+{"time":"2025-06-17T01:06:24.0356451+07:00","level":"INFO","msg":"sender: closed","stream_id":"8hskscyu"}
+{"time":"2025-06-17T01:06:24.0369746+07:00","level":"INFO","msg":"stream: closed","id":"8hskscyu"}

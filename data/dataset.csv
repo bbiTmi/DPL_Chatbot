@@ -1,0 +1,1884 @@
+id,question,intent
+1,Good morning!,greeting
+2,Good day!,greeting
+3,"Hey, what's up?",greeting
+4,"Hi, how are you?",greeting
+5,Hey!,greeting
+6,Hello!,greeting
+7,"Hi, coffee time?",greeting
+8,Hi there!,greeting
+9,"Hello, is anyone there?",greeting
+10,Good afternoon!,greeting
+11,Take care!,goodbye
+12,goodbye!,goodbye
+13,See you soon!,goodbye
+14,"Thanks, goodbye!",goodbye
+15,Catch you next time!,goodbye
+16,Talk later!,goodbye
+17,See you later!,goodbye
+18,Farewell!,goodbye
+19,goodbye for now!,goodbye
+20,goodbye!,goodbye
+21,When can I visit in the morning?,open_time
+22,Is the café open early in the morning?,open_time
+23,Can I come in at 8:00 AM?,open_time
+24,Do you open at 8:00?,open_time
+25,What time do you open?,open_time
+26,Are you open at 8 AM?,open_time
+27,Are you open now? It’s 8:30 AM.,open_time
+28,When do you start serving coffee?,open_time
+29,Do you open every day at 8 AM?,open_time
+30,What’s your opening hour?,open_time
+31,What’s your last call?,close_time
+32,Can I come by at 8:45 PM?,close_time
+33,How late are you open?,close_time
+34,When do you close?,close_time
+35,Can I visit before you close?,close_time
+36,Is 9 PM your closing time?,close_time
+37,Are you open until 9 PM?,close_time
+38,Are you still open at 20:59?,close_time
+39,Will you be open after 8 PM?,close_time
+40,Do you stop serving at 9 PM?,close_time
+41,Can you tell me your location?,location
+42,"Are you based in FPT, HCMC?",location
+43,Where in FPT University are you?,location
+44,Where is your café?,location
+45,Is your café in Vietnam?,location
+46,What’s your address?,location
+47,Are you at FPT University?,location
+48,Where can I find you?,location
+49,Are you located in Ho Chi Minh City?,location
+50,Where is the coffee shop located?,location
+51,Thank you!,thank_you
+52,I appreciate it!,thank_you
+53,Thanks for your service!,thank_you
+54,Really appreciate it!,thank_you
+55,Thanks a lot!,thank_you
+56,Much appreciated!,thank_you
+57,"I’m grateful, thanks!",thank_you
+58,Thanks for the help!,thank_you
+59,Thanks!,thank_you
+60,Thank you so much!,thank_you
+61,question,intent
+62,Can I have a Green Mint please?,order
+63,Give me one Latte.,order
+64,Give me one Green Mint.,order
+65,I'd like a cup of Chai tea.,order
+66,I’d like to order a Chai tea.,order
+67,I'd like a cup of Black Tea.,order
+68,Give me one Cappuccino.,order
+69,Give me one Mocha.,order
+70,I’d like to order a Black Tea.,order
+71,Can I have a Black Tea please?,order
+72,Can I have a Hot Chocolate please?,order
+73,"One White Mocha to go, please.",order
+74,Give me one Hot Chocolate.,order
+75,I’d like to order a Hot Chocolate.,order
+76,Can I have a Latte please?,order
+77,"One Chai tea to go, please.",order
+78,Can I have a Americano please?,order
+79,I'd like a cup of Latte.,order
+80,"One Green Mint to go, please.",order
+81,Can I have a Mocha please?,order
+82,Give me one Chai tea.,order
+83,I'd like a cup of Cappuccino.,order
+84,Can I have a White Mocha please?,order
+85,I'd like a cup of Mocha.,order
+86,Give me one Americano.,order
+87,I'd like a cup of Green Mint.,order
+88,"One Cappuccino to go, please.",order
+89,I’d like to order a Matcha Latte.,order
+90,Give me one Black Tea.,order
+91,I'd like a cup of Americano.,order
+92,Give me one Matcha Latte.,order
+93,Can I cancel my last order?,cancel_order
+94,I want to cancel my order.,cancel_order
+95,"I changed my mind, cancel the order.",cancel_order
+96,Please cancel what I just ordered.,cancel_order
+97,"Cancel my drink, please.",cancel_order
+98,What’s on the menu today?,menu
+99,What drinks do you have?,menu
+100,Can I see the menu?,menu
+101,Do you serve coffee and tea?,menu
+102,Can you show me the drink options?,menu
+103,Is there a special offer available?,promotion
+104,Any deals on coffee now?,promotion
+105,Are you running any promotions?,promotion
+106,Do you have any discounts?,promotion
+107,Are there any promotions today?,promotion
+108,How much do you charge for Cappuccino?,price
+109,What's the price for a cup of White Mocha?,price
+110,What’s the price of Black Tea?,price
+111,Can you tell me the cost of Americano?,price
+112,How much is a Black Tea?,price
+113,What's the price for a cup of Americano?,price
+114,How much do you charge for Mocha?,price
+115,Can you tell me the cost of Matcha Latte?,price
+116,How much do you charge for White Mocha?,price
+117,What’s the price of Cappuccino?,price
+118,Can you tell me the cost of White Mocha?,price
+119,What’s the price of Matcha Latte?,price
+120,What's the price for a cup of Mocha?,price
+121,What's the price for a cup of Latte?,price
+122,How much is a Hot Chocolate?,price
+123,How much is a Cappuccino?,price
+124,Can you tell me the cost of Green Mint?,price
+125,Can you tell me the cost of Hot Chocolate?,price
+126,Can you tell me the cost of Chai tea?,price
+127,How much is a White Mocha?,price
+128,How much is a Green Mint?,price
+129,How much is a Americano?,price
+130,Can you tell me the cost of Black Tea?,price
+131,How much is a Latte?,price
+132,What’s the price of White Mocha?,price
+133,What’s the price of Green Mint?,price
+134,Can you tell me the cost of Mocha?,price
+135,How much do you charge for Chai tea?,price
+136,How much do you charge for Black Tea?,price
+137,What's the price for a cup of Chai tea?,price
+138,How much do you charge for Americano?,price
+139,How much is a Matcha Latte?,price
+140,What's the price for a cup of Black Tea?,price
+141,Can I change my order?,change_order
+142,I want to modify my order.,change_order
+143,I want to update my drink choice.,change_order
+144,I’d like to change what I ordered.,change_order
+145,Can I switch my drink?,change_order
+146,"I’d like to order one Americano, please",order
+147,Can I get two Americanos?,order
+148,I'd like to have three cups of Americano,order
+149,Could I order an Americano?,order
+150,Please give me one Americano,order
+151,"May I have two Americanos, please?",order
+152,I'd love to get an Americano,order
+153,I want to order four Americanos,order
+154,Let me order a single Americano,order
+155,I’ll take one Americano to go,order
+156,I’d like five Americanos for my friends and me,order
+157,Can you make three Americanos for us?,order
+158,I’d like to place an order for two Americanos,order
+159,"I'd appreciate a hot Americano, please",order
+160,"One Americano, thanks",order
+161,I need an Americano to start my day,order
+162,"Give me one cup of Americano, please",order
+163,I’ll go with an Americano today,order
+164,I want an Americano right now,order
+165,I’d like to buy one Americano,order
+166,"I’d like to order one Cappuccino, please",order
+167,Can I get two Cappuccinos?,order
+168,I'd like to have three cups of Cappuccino,order
+169,Could I order a Cappuccino?,order
+170,Please give me one Cappuccino,order
+171,"May I have two Cappuccinos, please?",order
+172,I'd love to get a Cappuccino,order
+173,I want to order four Cappuccinos,order
+174,Let me order a single Cappuccino,order
+175,I’ll take one Cappuccino to go,order
+176,I’d like five Cappuccinos for my friends and me,order
+177,Can you make three Cappuccinos for us?,order
+178,I’d like to place an order for two Cappuccinos,order
+179,"I'd appreciate a hot Cappuccino, please",order
+180,"One Cappuccino, thanks",order
+181,I need a Cappuccino to start my day,order
+182,"Give me one cup of Cappuccino, please",order
+183,I’ll go with a Cappuccino today,order
+184,I want a Cappuccino right now,order
+185,I’d like to buy one Cappuccino,order
+186,"I’d like to order one Latte, please",order
+187,Can I get two Lattes?,order
+188,I'd like to have three cups of Latte,order
+189,Could I order a Latte?,order
+190,Please give me one Latte,order
+191,"May I have two Lattes, please?",order
+192,I'd love to get a Latte,order
+193,I want to order four Lattes,order
+194,Let me order a single Latte,order
+195,I’ll take one Latte to go,order
+196,I’d like five Lattes for my friends and me,order
+197,Can you make three Lattes for us?,order
+198,I’d like to place an order for two Lattes,order
+199,"I'd appreciate a hot Latte, please",order
+200,"One Latte, thanks",order
+201,I need a Latte to start my day,order
+202,"Give me one cup of Latte, please",order
+203,I’ll go with a Latte today,order
+204,I want a Latte right now,order
+205,I’d like to buy one Latte,order
+206,"I’d like to order one Mocha, please",order
+207,Can I get two Mochas?,order
+208,I'd like to have three cups of Mocha,order
+209,Could I order a Mocha?,order
+210,Please give me one Mocha,order
+211,"May I have two Mochas, please?",order
+212,I'd love to get a Mocha,order
+213,I want to order four Mochas,order
+214,Let me order a single Mocha,order
+215,I’ll take one Mocha to go,order
+216,I’d like five Mochas for my friends and me,order
+217,Can you make three Mochas for us?,order
+218,I’d like to place an order for two Mochas,order
+219,"I'd appreciate a hot Mocha, please",order
+220,"One Mocha, thanks",order
+221,I need a Mocha to start my day,order
+222,"Give me one cup of Mocha, please",order
+223,I’ll go with a Mocha today,order
+224,I want a Mocha right now,order
+225,I’d like to buy one Mocha,order
+226,"I’d like to order one White Mocha, please",order
+227,Can I get two White Mochas?,order
+228,I'd like to have three cups of White Mocha,order
+229,Could I order a White Mocha?,order
+230,Please give me one White Mocha,order
+231,"May I have two White Mochas, please?",order
+232,I'd love to get a White Mocha,order
+233,I want to order four White Mochas,order
+234,Let me order a single White Mocha,order
+235,I’ll take one White Mocha to go,order
+236,I’d like five White Mochas for my friends and me,order
+237,Can you make three White Mochas for us?,order
+238,I’d like to place an order for two White Mochas,order
+239,"I'd appreciate a hot White Mocha, please",order
+240,"One White Mocha, thanks",order
+241,I need a White Mocha to start my day,order
+242,"Give me one cup of White Mocha, please",order
+243,I’ll go with a White Mocha today,order
+244,I want a White Mocha right now,order
+245,I’d like to buy one White Mocha,order
+246,"I’d like to order one Black Tea, please",order
+247,Can I get two Black Teas?,order
+248,I'd like to have three cups of Black Tea,order
+249,Could I order a Black Tea?,order
+250,Please give me one Black Tea,order
+251,"May I have two Black Teas, please?",order
+252,I'd love to get a Black Tea,order
+253,I want to order four Black Teas,order
+254,Let me order a single Black Tea,order
+255,I’ll take one Black Tea to go,order
+256,I’d like five Black Teas for my friends and me,order
+257,Can you make three Black Teas for us?,order
+258,I’d like to place an order for two Black Teas,order
+259,"I'd appreciate a hot Black Tea, please",order
+260,"One Black Tea, thanks",order
+261,I need a Black Tea to start my day,order
+262,"Give me one cup of Black Tea, please",order
+263,I’ll go with a Black Tea today,order
+264,I want a Black Tea right now,order
+265,I’d like to buy one Black Tea,order
+266,"I’d like to order one Chai Tea, please",order
+267,Can I get two Chai Teas?,order
+268,I'd like to have three cups of Chai Tea,order
+269,Could I order a Chai Tea?,order
+270,Please give me one Chai Tea,order
+271,"May I have two Chai Teas, please?",order
+272,I'd love to get a Chai Tea,order
+273,I want to order four Chai Teas,order
+274,Let me order a single Chai Tea,order
+275,I’ll take one Chai Tea to go,order
+276,I’d like five Chai Teas for my friends and me,order
+277,Can you make three Chai Teas for us?,order
+278,I’d like to place an order for two Chai Teas,order
+279,"I'd appreciate a hot Chai Tea, please",order
+280,"One Chai Tea, thanks",order
+281,I need a Chai Tea to start my day,order
+282,"Give me one cup of Chai Tea, please",order
+283,I’ll go with a Chai Tea today,order
+284,I want a Chai Tea right now,order
+285,I’d like to buy one Chai Tea,order
+286,"I’d like to order one Green Mint, please",order
+287,Can I get two Green Mints?,order
+288,I'd like to have three cups of Green Mint,order
+289,Could I order a Green Mint?,order
+290,Please give me one Green Mint,order
+291,"May I have two Green Mints, please?",order
+292,I'd love to get a Green Mint,order
+293,I want to order four Green Mints,order
+294,Let me order a single Green Mint,order
+295,I’ll take one Green Mint to go,order
+296,I’d like five Green Mints for my friends and me,order
+297,Can you make three Green Mints for us?,order
+298,I’d like to place an order for two Green Mints,order
+299,"I'd appreciate a hot Green Mint, please",order
+300,"One Green Mint, thanks",order
+301,I need a Green Mint to start my day,order
+302,"Give me one cup of Green Mint, please",order
+303,I’ll go with a Green Mint today,order
+304,I want a Green Mint right now,order
+305,I’d like to buy one Green Mint,order
+306,"I’d like to order one Hot Chocolate, please",order
+307,Can I get two Hot Chocolates?,order
+308,I'd like to have three cups of Hot Chocolate,order
+309,Could I order a Hot Chocolate?,order
+310,Please give me one Hot Chocolate,order
+311,"May I have two Hot Chocolates, please?",order
+312,I'd love to get a Hot Chocolate,order
+313,I want to order four Hot Chocolates,order
+314,Let me order a single Hot Chocolate,order
+315,I’ll take one Hot Chocolate to go,order
+316,I’d like five Hot Chocolates for my friends and me,order
+317,Can you make three Hot Chocolates for us?,order
+318,I’d like to place an order for two Hot Chocolates,order
+319,"I'd appreciate a hot Hot Chocolate, please",order
+320,"One Hot Chocolate, thanks",order
+321,I need a Hot Chocolate to start my day,order
+322,"Give me one cup of Hot Chocolate, please",order
+323,I’ll go with a Hot Chocolate today,order
+324,I want a Hot Chocolate right now,order
+325,I’d like to buy one Hot Chocolate,order
+326,"I’d like to order one Matcha Latte, please",order
+327,Can I get two Matcha Lattes?,order
+328,I'd like to have three cups of Matcha Latte,order
+329,Could I order a Matcha Latte?,order
+330,Please give me one Matcha Latte,order
+331,"May I have two Matcha Lattes, please?",order
+332,I'd love to get a Matcha Latte,order
+333,I want to order four Matcha Lattes,order
+334,Let me order a single Matcha Latte,order
+335,I’ll take one Matcha Latte to go,order
+336,I’d like five Matcha Lattes for my friends and me,order
+337,Can you make three Matcha Lattes for us?,order
+338,I’d like to place an order for two Matcha Lattes,order
+339,"I'd appreciate a hot Matcha Latte, please",order
+340,"One Matcha Latte, thanks",order
+341,I need a Matcha Latte to start my day,order
+342,"Give me one cup of Matcha Latte, please",order
+343,I’ll go with a Matcha Latte today,order
+344,I want a Matcha Latte right now,order
+345,I’d like to buy one Matcha Latte,order
+346,I want to cancel my order,cancel_order
+347,"I changed my mind, cancel the order",cancel_order
+348,Please cancel what I just ordered,cancel_order
+349,"Cancel my drink, please",cancel_order
+350,I need to cancel my order,cancel_order
+351,Can you cancel my last request?,cancel_order
+352,Please cancel that drink,cancel_order
+353,I’d like to cancel my recent order,cancel_order
+354,Cancel the order I just made,cancel_order
+355,"I no longer want that drink, cancel it",cancel_order
+356,"Cancel my coffee order, please",cancel_order
+357,Can I revoke my previous order?,cancel_order
+358,Please remove my last order,cancel_order
+359,"Forget my last order, please",cancel_order
+360,"I’m not going through with that order, cancel it",cancel_order
+361,"I placed the wrong order, please cancel it",cancel_order
+362,Take back my drink request,cancel_order
+363,"I hit order by mistake, cancel it",cancel_order
+364,I’d like to stop my current order,cancel_order
+365,I want to modify my drink order,change_order
+366,I’d like to switch my order,change_order
+367,Can I update what I ordered?,change_order
+368,I’d like to make a change to my order,change_order
+369,Is it possible to alter my drink?,change_order
+370,"I ordered the wrong item, can I change it?",change_order
+371,Please adjust my order,change_order
+372,I'd like to replace my current order,change_order
+373,Can I swap my order for something else?,change_order
+374,I’d like to order something different instead,change_order
+375,Is there a way to change my request?,change_order
+376,Let me modify my drink selection,change_order
+377,I need to update my order,change_order
+378,"I made a mistake, can I change my order?",change_order
+379,"Change my drink to something else, please",change_order
+380,I'd like to revise what I ordered,change_order
+381,I want to change my coffee to tea,change_order
+382,Please help me update my drink choice,change_order
+383,Can I correct my order?,change_order
+384,What time do you close?,close_time
+385,When does your shop close?,close_time
+386,Do you close at 21:00?,close_time
+387,When do you stop serving drinks?,close_time
+388,Can I come at 8:50 PM before you close?,close_time
+389,What’s your closing hour?,close_time
+390,Are you still open at 8:45 PM?,close_time
+391,Do you close every day at 9 PM?,close_time
+392,Until what time are you accepting orders?,close_time
+393,Can I place an order after 8:30 PM?,close_time
+394,Is your café open past 8 PM?,close_time
+395,Will you still be open at 20:59?,close_time
+396,What is the latest time I can come in?,close_time
+397,Are you serving coffee until 9 PM?,close_time
+398,Do you stop taking customers after 9 PM?,close_time
+399,Is the café still running at 8:55 PM?,close_time
+400,Can I get a drink if I arrive at 8:40 PM?,close_time
+401,Is 9 PM the latest you stay open?,close_time
+402,Where can I find your café?,location
+403,What’s the address of your shop?,location
+404,Where are you based?,location
+405,Is the coffee shop inside FPT University?,location
+406,Where exactly is your café in FPT campus?,location
+407,Can I find your coffee shop at FPT University?,location
+408,Are you near the main gate of FPT HCMC?,location
+409,What’s your exact location in the university?,location
+410,Are you in FPT University's main building?,location
+411,Is your shop in Vietnam?,location
+412,Where do you serve coffee?,location
+413,Do you have a location map?,location
+414,Can I visit your shop at FPT University?,location
+415,Where is your store located on campus?,location
+416,Are you near the library at FPT?,location
+417,Is your shop close to the dormitory area?,location
+418,Where do I go to find your café?,location
+419,Can I see your menu?,menu
+420,What drinks do you offer?,menu
+421,Do you have a drink list?,menu
+422,What's available on your menu?,menu
+423,Can you show me the beverage options?,menu
+424,What kinds of coffee and tea do you serve?,menu
+425,Do you serve hot chocolate or matcha?,menu
+426,What are the drink choices today?,menu
+427,Could you tell me what's on the menu?,menu
+428,Do you have any non-coffee drinks?,menu
+429,Can I get a list of all your drinks?,menu
+430,What’s your coffee selection like?,menu
+431,Do you have milk-based drinks?,menu
+432,Are there any seasonal items on the menu?,menu
+433,Could you share your full drink menu?,menu
+434,Can I see what kinds of teas you have?,menu
+435,Do you offer specialty drinks?,menu
+436,Is your menu available online?,menu
+437,What are the top drinks on your menu?,menu
+438,I’d like to browse your menu before ordering,menu
+439,What kinds of drinks do you have?,menu
+440,Can you list your available beverages?,menu
+441,Do you have a menu I can check?,menu
+442,Can I take a look at your menu options?,menu
+443,Is your drink menu available to view?,menu
+444,What items are currently on the menu?,menu
+445,Can I know what you’re serving today?,menu
+446,Tell me about your drink offerings,menu
+447,What can I order from your menu?,menu
+448,Are there lattes or mochas on the menu?,menu
+449,Do you serve Americano or Cappuccino?,menu
+450,What tea options do you have?,menu
+451,Is matcha on the menu?,menu
+452,Do you have white mocha available?,menu
+453,What’s included in your coffee menu?,menu
+454,Do you have any cold drinks?,menu
+455,Are there non-dairy options on your menu?,menu
+456,Can you tell me the full list of your drinks?,menu
+457,I'd like to check what's available to order,menu
+458,Is it possible to preview the menu?,menu
+459,When does your café start serving?,open_time
+460,Are you open at 8:00 AM?,open_time
+461,Is your opening time 8 in the morning?,open_time
+462,Do you start business at 8 AM?,open_time
+463,Can I come in at 8 AM?,open_time
+464,When do you begin operating?,open_time
+465,Are you open every day at 8:00?,open_time
+466,What are your morning hours?,open_time
+467,When does the shop open in the morning?,open_time
+468,Can I grab coffee right at 8 AM?,open_time
+469,Is the coffee shop open now? It's 8:30 AM,open_time
+470,What time do you start taking orders?,open_time
+471,Can I visit at 8:15 AM?,open_time
+472,Are you open first thing in the morning?,open_time
+473,What’s your earliest opening time?,open_time
+474,Do you open on weekends at 8 AM too?,open_time
+475,Are you open at exactly 8 AM daily?,open_time
+476,When can customers come in the morning?,open_time
+477,Do you know the price of a White Mocha?,price
+478,How much do you charge for Latte?,price
+479,What's the price of Mocha?,price
+480,Could you tell me how much a Cappuccino costs?,price
+481,Is Chai Tea expensive here?,price
+482,How much do you charge for Matcha Latte?,price
+483,I'd like to know the cost of a Latte,price
+484,Do you know the price of a Hot Chocolate?,price
+485,Is Mocha expensive here?,price
+486,Could you tell me how much a Chai Tea costs?,price
+487,Do you know the price of a Matcha Latte?,price
+488,I'd like to know the cost of a Matcha Latte,price
+489,Is Americano expensive here?,price
+490,What's the price of Chai Tea?,price
+491,Can you tell me the cost of Cappuccino?,price
+492,What's the price of Latte?,price
+493,I'd like to know the cost of a Chai Tea,price
+494,Can you tell me the cost of Chai Tea?,price
+495,What's the price for a cup of Hot Chocolate?,price
+496,Do you know the price of a Black Tea?,price
+497,Can you tell me the cost of Latte?,price
+498,Do you know the price of a Latte?,price
+499,What does a Black Tea cost?,price
+500,I'd like to know the cost of a Black Tea,price
+501,Do you know the price of a Chai Tea?,price
+502,Is Black Tea expensive here?,price
+503,Could you tell me how much a Americano costs?,price
+504,How much do you charge for Hot Chocolate?,price
+505,Do you know the price of a Mocha?,price
+506,Do you know the price of a Americano?,price
+507,What does a Hot Chocolate cost?,price
+508,I'd like to know the cost of a Green Mint,price
+509,What's the price of Black Tea?,price
+510,I'd like to know the cost of a Americano,price
+511,Do you have a buy-one-get-one deal?,promotion
+512,Do you have any discounts available?,promotion
+513,Is there a special offer going on now?,promotion
+514,Do students get a discount here?,promotion
+515,Is there a weekend deal running now?,promotion
+516,Do you offer any price reductions today?,promotion
+517,Are group discounts available?,promotion
+518,Is there a promo code I can use?,promotion
+519,Is there a coupon or voucher I can apply?,promotion
+520,What kind of offers do you have today?,promotion
+521,Can I use any membership benefits?,promotion
+522,Are you running any deals?,promotion
+523,Is there any promotion I can use?,promotion
+524,Can I get a discount on drinks?,promotion
+525,Do you offer deals for first-time customers?,promotion
+526,Are there any seasonal discounts?,promotion
+527,Are there any current specials on coffee?,promotion
+528,Hey there!,greeting
+529,"Hi, good to see you!",greeting
+530,"Hello, coffee team!",greeting
+531,Greetings!,greeting
+532,Morning!,greeting
+533,"Hey, how’s it going?",greeting
+534,"Hi, anyone there?",greeting
+535,"Hey, is the shop open?",greeting
+536,Hello everyone!,greeting
+537,Hi again!,greeting
+538,Nice to see you!,greeting
+539,"Hi, hope you're doing well!",greeting
+540,Yo!,greeting
+541,What's up?,greeting
+542,"Good morning, folks!",greeting
+543,"Hi, can I get some help?",greeting
+544,"Hello, is this the coffee place?",greeting
+545,Good to be here!,greeting
+546,"Hello, happy to connect!",greeting
+547,"Hi, what’s on the menu?",greeting
+548,goodbye and thanks!,goodbye
+549,Talk to you later!,goodbye
+550,Have a good one!,goodbye
+551,Until next time!,goodbye
+552,See you tomorrow!,goodbye
+553,"Thanks, I'm off now!",goodbye
+554,goodbye-goodbye!,goodbye
+555,"I'm heading out now, goodbye!",goodbye
+556,"That’s all for now, goodbye!",goodbye
+557,Later!,goodbye
+558,I’ll drop by again soon!,goodbye
+559,"Gotta go, goodbye!",goodbye
+560,Enjoy your day!,goodbye
+561,Take it easy!,goodbye
+562,See ya!,goodbye
+563,Peace out!,goodbye
+564,Talk soon!,goodbye
+565,Farewell for now!,goodbye
+566,Thanks so much!,thank_you
+567,Thanks for your time!,thank_you
+568,Many thanks!,thank_you
+569,Appreciate it!,thank_you
+570,Thanks for the info!,thank_you
+571,Grateful for your help!,thank_you
+572,Thanks for assisting me!,thank_you
+573,I appreciate your service!,thank_you
+574,Sincere thanks!,thank_you
+575,Much obliged!,thank_you
+576,Thanks for your quick response!,thank_you
+577,Big thanks!,thank_you
+578,Cheers!,thank_you
+579,I’m thankful!,thank_you
+580,"That was helpful, thank you!",thank_you
+581,Thanks for your support!,thank_you
+582,"Great service, thanks!",thank_you
+583,"You’re awesome, thanks!",thank_you
+584,Thanks for being so responsive!,thank_you
+585,I really appreciate it!,thank_you
+586,I want to update my drink choice,change_order
+587,Can I edit what I just ordered?,change_order
+588,I'd like to change my coffee to tea,change_order
+589,Let me switch my order,change_order
+590,I need to make a change to my current order,change_order
+591,Can I modify my drink selection?,change_order
+592,I'd like to pick a different drink,change_order
+593,Could I alter my last request?,change_order
+594,"I made a mistake, can I fix my order?",change_order
+595,Is it okay if I change my order?,change_order
+596,Please help me switch to another item,change_order
+597,I want to replace what I ordered,change_order
+598,Let me correct my order,change_order
+599,I’d prefer a different item now,change_order
+600,Can I revise my previous order?,change_order
+601,Please update my drink to something else,change_order
+602,"I’ve changed my mind, can I update my order?",change_order
+603,I need to correct my last order,change_order
+604,I’d like to reorder something else,change_order
+605,Cancel the drink I just asked for,cancel_order
+606,Can you cancel my coffee order?,cancel_order
+607,Forget about my last order,cancel_order
+608,I don’t want that order anymore,cancel_order
+609,Drop the drink I ordered earlier,cancel_order
+610,I need to cancel my coffee request,cancel_order
+611,Please void my recent order,cancel_order
+612,Can you delete my order?,cancel_order
+613,I no longer want the drink I ordered,cancel_order
+614,Please withdraw my order,cancel_order
+615,I'd like to cancel what I just selected,cancel_order
+616,"Remove my current order, please",cancel_order
+617,"Undo my previous order, please",cancel_order
+618,Take back the drink I chose,cancel_order
+619,Cancel that last request for me,cancel_order
+620,"I placed the wrong drink, cancel it",cancel_order
+621,Scratch that drink from my order,cancel_order
+622,Please stop the order I submitted,cancel_order
+623,I want to cancel the item I requested,cancel_order
+624,Forget my last request,cancel_order
+625,What time does the coffee shop start operations?,open_time
+626,When do you start brewing coffee?,open_time
+627,Can I come right at 8 in the morning?,open_time
+628,When do your morning hours begin?,open_time
+629,Is the café open by 8 AM?,open_time
+630,Do you serve breakfast at 8?,open_time
+631,Are you already open at 8:00 AM sharp?,open_time
+632,Can I place an order at 8:00 AM?,open_time
+633,When does your first shift begin?,open_time
+634,Is 8 AM your regular opening time?,open_time
+635,At what time do doors open?,open_time
+636,Do you start at exactly 8 AM daily?,open_time
+637,Are you open for business at 8?,open_time
+638,Can I stop by early in the morning?,open_time
+639,Is your café open by 08:00 hours?,open_time
+640,Does your store open right at 8 AM?,open_time
+641,Is 8 o’clock the opening time every day?,open_time
+642,When do you unlock the doors?,open_time
+643,Do you begin taking orders at 8 AM?,open_time
+644,When can I grab the first coffee of the day?,open_time
+645,What time do you stop taking orders?,close_time
+646,When does the café shut down?,close_time
+647,Is the last call before 9 PM?,close_time
+648,Can I come at 8:59 PM?,close_time
+649,Do you close the shop at 21:00?,close_time
+650,Are drinks still available at 8:55 PM?,close_time
+651,When is your last service hour?,close_time
+652,What time is the shop's final hour?,close_time
+653,Do you accept customers until 9 PM?,close_time
+654,Is it too late to come at 8:50 PM?,close_time
+655,Do you still serve after 8:30 PM?,close_time
+656,How late can I walk in for coffee?,close_time
+657,Can I visit just before 9 PM?,close_time
+658,What’s your end-of-day time?,close_time
+659,Do you shut down right at 9 PM?,close_time
+660,When should I come before you close?,close_time
+661,Is 8:45 PM still okay to order?,close_time
+662,Do you allow late-night orders?,close_time
+663,Are you serving until the last minute?,close_time
+664,When's your final call for drinks?,close_time
+665,Where exactly are you located in FPT University?,location
+666,Can I find your shop near the main gate?,location
+667,Is your café close to the central building?,location
+668,Where in Ho Chi Minh City is the shop?,location
+669,Can you share your physical address?,location
+670,Where is your coffee shop on campus?,location
+671,Are you next to the student center?,location
+672,Is the shop near the library at FPT?,location
+673,How do I get to your café at FPT HCMC?,location
+674,What’s the detailed location of your store?,location
+675,Are you inside the FPT HCMC campus?,location
+676,Is your café close to dormitories?,location
+677,Where is your exact position on the map?,location
+678,Do you operate from inside the university?,location
+679,Are you near any famous landmarks at FPT?,location
+680,Where do I go to find you at the university?,location
+681,Are you behind the administration building?,location
+682,Where’s the entrance to your shop?,location
+683,Is it easy to locate your café in FPT?,location
+684,Where is your exact storefront located?,location
+685,Hello again!,greeting
+686,Good to see you!,greeting
+687,"Hi, is this the coffee bot?",greeting
+688,"Hey, are you open?",greeting
+689,Hi team!,greeting
+690,Greetings to the coffee crew!,greeting
+691,Morning there!,greeting
+692,"Hi, how’s business today?",greeting
+693,"Hello, just checking in!",greeting
+694,"Hey, long time no see!",greeting
+695,Nice day for a coffee!,greeting
+696,"Hi, can I talk to someone?",greeting
+697,Good morning from me!,greeting
+698,"Hi, is the café open now?",greeting
+699,Hello coffee assistant!,greeting
+700,"Hi, I’m back!",greeting
+701,Hello to the best coffee shop!,greeting
+702,"Hey, ready for orders?",greeting
+703,Hi café team!,greeting
+704,Morning vibes!,greeting
+705,That’s all for now!,goodbye
+706,goodbye for today!,goodbye
+707,"Logging off, goodbye!",goodbye
+708,Thanks and goodbye!,goodbye
+709,"Until later, take care!",goodbye
+710,"goodbye, see you soon!",goodbye
+711,"That’s it, thanks!",goodbye
+712,Catch you again!,goodbye
+713,"Cheers, I’m done!",goodbye
+714,"I'm out, goodbye!",goodbye
+715,"Talk later, coffee bot!",goodbye
+716,Heading off now!,goodbye
+717,Have a great day!,goodbye
+718,That’s everything I need!,goodbye
+719,Will be back later!,goodbye
+720,See you another time!,goodbye
+721,"I’m leaving, thanks!",goodbye
+722,Great talking to you!,goodbye
+723,"Time to go, goodbye!",goodbye
+724,That’s a wrap!,goodbye
+725,Are there any ongoing coffee deals?,promotion
+726,Is there a student discount today?,promotion
+727,Do you have promotions for members?,promotion
+728,Any discounts this afternoon?,promotion
+729,Is there a loyalty program?,promotion
+730,Do I get a reward for ordering often?,promotion
+731,Are there any new customer offers?,promotion
+732,Any freebies with orders today?,promotion
+733,What are your current deals?,promotion
+734,Is there a happy hour?,promotion
+735,Do you offer birthday discounts?,promotion
+736,Any discount if I order two drinks?,promotion
+737,Do you run flash sales?,promotion
+738,What’s the best deal today?,promotion
+739,Are coupons accepted here?,promotion
+740,Do I get anything with a combo order?,promotion
+741,Any voucher codes available?,promotion
+742,Do you offer referral rewards?,promotion
+743,Are there time-based promos?,promotion
+744,Any surprise offers for today?,promotion
+745,Thanks a bunch!,thank_you
+746,Much gratitude!,thank_you
+747,Thanks for your patience!,thank_you
+748,Really thankful!,thank_you
+749,Thanks again!,thank_you
+750,So grateful!,thank_you
+751,Huge thanks!,thank_you
+752,Thank you kindly!,thank_you
+753,I truly appreciate it!,thank_you
+754,"That was awesome, thanks!",thank_you
+755,Thanks for your kindness!,thank_you
+756,Thank you for the support!,thank_you
+757,I appreciate your effort!,thank_you
+758,Massive thanks to you!,thank_you
+759,Thanks for the quick reply!,thank_you
+760,Thanks for the excellent service!,thank_you
+761,You’ve been a big help!,thank_you
+762,My appreciation!,thank_you
+763,Cheers for the help!,thank_you
+764,Appreciated as always!,thank_you
+765,skrrrrrrrrrrrrrr yeah!,thank_you
+766,Can I get an Americano?,order
+767,Could I have a Latte?,order
+768,I'll take a Mocha.,order
+769,Do you have Black Tea?,order
+770,I'd like a Chai tea.,order
+771,Can I get a Green Mint?,order
+772,Could I have a Hot Chocolate?,order
+773,I'll take a Matcha Latte.,order
+774,What's the price of an Americano?,price
+775,What does a Latte cost?,price
+776,How much for a Mocha?,price
+777,What's the price of the White Mocha?,price
+778,How much is the Black Tea?,price
+779,What's the cost of the Chai tea?,price
+780,How much for a Green Mint?,price
+781,What's the price of a Hot Chocolate?,price
+782,Thank you very much.,thank_you
+783,Appreciate it.,thank_you
+784,goodbye!,goodbye
+785,See you!,goodbye
+786,goodbye for now!,goodbye
+787,Have a good day!,goodbye
+788,Later!,goodbye
+789,When do you start serving?,open_time
+790,At what time do you open your doors?,open_time
+791,What are your opening hours?,open_time
+792,When can I come in?,open_time
+793,When do you stop serving?,close_time
+794,At what time do you close your doors?,close_time
+795,What are your closing hours?,close_time
+796,When do you shut down for the day?,close_time
+797,Where are you located?,location
+798,What's your address?,location
+799,Which FPT University building are you in?,location
+800,I'd like to order a coffee.,order
+801,Do you have any other drinks besides coffee and tea?,order
+802,What kind of Americano do you have?,order
+803,Could I get a hot Cappuccino?,order
+804,I want an iced Latte.,order
+805,Can I order a decaf Mocha?,order
+806,I'll take a large White Mocha.,order
+807,Is the Black Tea hot or iced?,order
+808,Can I get a small Chai tea?,order
+809,What's the cost for a regular Americano?,price
+810,How much is a small Cappuccino?,price
+811,What's the price of the largest Latte?,price
+812,Is the Mocha more expensive than the Latte?,price
+813,Are all the teas the same price?,price
+814,Is the Matcha Latte $4.2?,price
+815,Are there any cheaper options than $3?,price
+816,What's the total for a Cappuccino and a Hot Chocolate?,price
+817,Can I see the prices for all your drinks?,price
+818,Morning! Is the coffee shop open?,greeting
+819,Thank you for the coffee.,thank_you
+820,Thanks for your help!,thank_you
+821,See you tomorrow!,goodbye
+822,Catch you later!,goodbye
+823,When do you open on weekdays?,open_time
+824,What time are you open until tonight?,close_time
+825,Are you open past 9 PM?,close_time
+826,What are your hours on the weekend?,open_time
+827,What time does the coffee shop close today?,close_time
+828,Are you inside FPT University?,location
+829,Where exactly in Ho Chi Minh City is this located?,location
+830,Is this coffee shop near the main gate of FPT University?,location
+831,Can I find you on a map?,location
+832,What's the nearest landmark to your location?,location
+833,Do you have a full menu I can look at?,menu
+834,What are your coffee options?,menu
+835,What kind of teas do you serve?,menu
+836,Are there any other beverages on your menu?,menu
+837,Can I see the drink menu?,menu
+838,I'd like to cancel my Americano order.,cancel_order
+839,Can I cancel my drink order?,cancel_order
+840,Is it too late to cancel my Cappuccino?,cancel_order
+841,I want to cancel the Mocha I ordered.,cancel_order
+842,Can I cancel a part of my order?,cancel_order
+843,Can I change my Latte to a White Mocha?,change_order
+844,I want to change my Black Tea to a Green Mint.,change_order
+845,Can I add something to my order?,change_order
+846,Could I swap my Hot Chocolate for a Matcha Latte?,change_order
+847,I'd like to change the size of my Americano.,change_order
+848,Are there any promotions running right now?,promotion
+849,Do you have any current deals?,promotion
+850,Is there a student discount available?,promotion
+851,Are there any special offers today?,promotion
+852,Do you have a loyalty program or stamp card?,promotion
+853,How much for an Americano with an extra shot?,price
+854,Do you have a large size for the Green Mint tea?,order
+855,What's the difference in price between a small and a large Latte?,price
+856,Can I get a Hot Chocolate with whipped cream?,order
+857,Is there a time you are less busy?,open_time
+858,Do you offer oat milk for the Latte?,order
+859,How much extra is almond milk for a Cappuccino?,price
+860,Is there a public restroom available?,location
+861,What time is the last order taken?,close_time
+862,Could I see the full list of ingredients for the Matcha Latte?,menu
+863,Do you have any sugar-free options?,menu
+864,Can I get a hot water with lemon?,order
+865,How much is a plain black coffee?,price
+866,Is there free Wi-Fi here?,location
+867,Are you open on public holidays?,open_time
+868,Can I pay with a credit card?,order
+869,Do you have any pastries or snacks?,menu
+870,What's your most popular drink?,menu
+871,Can I get my drink to go?,order
+872,Is this location wheelchair accessible?,location
+873,What's the earliest I can get coffee here?,open_time
+874,Can I reserve a table?,order
+875,Do you have any cold brew coffee?,menu
+876,Is there a seating area available?,location
+877,How long does it take to make a Latte?,order
+878,Do you have gift cards available?,promotion
+879,Can I get a receipt for my purchase?,order
+880,What kind of milk alternatives do you have?,menu
+881,Are there any vegan options on your menu?,menu
+882,Can I pay with cash?,order
+883,What is the minimum order for delivery?,order
+884,Do you have any sugar substitutes?,menu
+885,Can I get a glass of water?,order
+886,How long have you been open at this location?,location
+887,Is there a place to charge my phone?,location
+888,Can I order a cappuccino?,order
+889,"I'd like to get a latte, please.",order
+890,Could I have a mocha?,order
+891,Can you prepare an Americano for me?,order
+892,May I order a white mocha?,order
+893,"I want a black tea, please.",order
+894,Could I get a chai tea?,order
+895,Can I have a green mint tea?,order
+896,I'd like a hot chocolate.,order
+897,May I order a matcha latte?,order
+898,Can I get an Americano with extra sugar?,order
+899,I'd like a cappuccino with almond milk.,order
+900,Could I have a latte with less ice?,order
+901,Can you make a mocha without whipped cream?,order
+902,May I order a white mocha with extra caramel?,order
+903,I want a black tea with honey.,order
+904,Could I get a chai tea with oat milk?,order
+905,Can I have a green mint tea with less sugar?,order
+906,I'd like a hot chocolate with marshmallows.,order
+907,May I order a matcha latte with soy milk?,order
+908,Can I get two Americanos and one cappuccino?,order
+909,I'd like three lattes and a black tea.,order
+910,Could I have a mocha and a hot chocolate?,order
+911,Can you prepare a white mocha and a matcha latte?,order
+912,May I order a green mint tea and a chai tea?,order
+913,"I want a large Americano, please.",order
+914,Could I get a small cappuccino?,order
+915,Can I have a medium latte?,order
+916,I'd like a large mocha.,order
+917,May I order a small white mocha?,order
+918,Can I get a black tea in a large cup?,order
+919,I'd like a small chai tea.,order
+920,Could I have a medium green mint tea?,order
+921,Can you make a large hot chocolate?,order
+922,May I order a small matcha latte?,order
+923,Can I get an iced Americano?,order
+924,I'd like a hot cappuccino.,order
+925,Could I have an iced latte?,order
+926,Can you make a hot mocha?,order
+927,May I order an iced white mocha?,order
+928,Can I get a cold black tea?,order
+929,I'd like a hot chai tea.,order
+930,Could I have an iced green mint tea?,order
+931,Can you make a cold hot chocolate?,order
+932,May I order an iced matcha latte?,order
+933,Can I get an Americano to go?,order
+934,I'd like a cappuccino for here.,order
+935,Could I have a latte to take away?,order
+936,Can you prepare a mocha for here?,order
+937,May I order a white mocha to go?,order
+938,How much is an Americano?,price
+939,What's the price of a cappuccino?,price
+940,How much does a latte cost?,price
+941,What is the price for a mocha?,price
+942,How much is a white mocha?,price
+943,What does black tea cost?,price
+944,How much is chai tea?,price
+945,What's the price of green mint tea?,price
+946,How much does hot chocolate cost?,price
+947,What is the price for a matcha latte?,price
+948,Is there a discount on Americanos?,price
+949,Are cappuccinos cheaper than lattes?,price
+950,How much extra for almond milk in a latte?,price
+951,What's the cost of adding caramel to a mocha?,price
+952,Is white mocha more expensive than regular mocha?,price
+953,Do black teas have different prices?,price
+954,How much is chai tea with oat milk?,price
+955,What's the price difference between green mint and black tea?,price
+956,Does hot chocolate cost more with marshmallows?,price
+957,How much is a matcha latte with soy milk?,price
+958,What’s the total for two Americanos?,price
+959,How much would three lattes cost?,price
+960,What’s the price of a mocha and a hot chocolate?,price
+961,How much for a white mocha and a matcha latte?,price
+962,What’s the cost of a green mint tea and a chai tea?,price
+963,Is there a price difference between small and large Americanos?,price
+964,How much more is a large cappuccino?,price
+965,What’s the cost of a medium latte?,price
+966,How much is a large mocha?,price
+967,Is a small white mocha cheaper?,price
+968,What’s the price of a large black tea?,price
+969,How much is a small chai tea?,price
+970,What’s the cost of a medium green mint tea?,price
+971,How much for a large hot chocolate?,price
+972,Is a small matcha latte less expensive?,price
+973,Do iced Americanos cost more?,price
+974,Is there a price difference between hot and iced cappuccinos?,price
+975,How much is an iced latte?,price
+976,What’s the cost of a hot mocha?,price
+977,How much for an iced white mocha?,price
+978,Is cold black tea the same price as hot?,price
+979,How much is a hot chai tea?,price
+980,What’s the price of an iced green mint tea?,price
+981,Does cold hot chocolate cost extra?,price
+982,How much is an iced matcha latte?,price
+983,Is there an extra charge for takeaway?,price
+984,Do 'for here' orders cost less?,price
+985,Is there a fee for disposable cups?,price
+986,How much is delivery?,price
+987,Are there any hidden fees?,price
+988,Good evening!,greeting
+989,"Hello, how’s it going?",greeting
+990,"Hey, what’s up?",greeting
+991,"Hi, nice to see you!",greeting
+992,"Hello, lovely day, isn’t it?",greeting
+993,"Hi, how’s your day?",greeting
+994,"Hey, how’s everything?",greeting
+995,"Hello, how have you been?",greeting
+996,"Hi, what’s new?",greeting
+997,"Hello, how’s business?",greeting
+998,"Hi, how’s your shift going?",greeting
+999,"Hey, good to see you again!",greeting
+1000,"Hello, how’s your morning?",greeting
+1001,"Hi, how’s your afternoon?",greeting
+1002,"Hey, how’s your evening?",greeting
+1003,"Hello, everything good?",greeting
+1004,"Hi, how’s life?",greeting
+1005,"Hey, how’s your week?",greeting
+1006,"Hello, how’s your day treating you?",greeting
+1007,"Hi, how’s work?",greeting
+1008,"Hey, how’s the coffee today?",greeting
+1009,"Hello, how’s the weather treating you?",greeting
+1010,"Hi, how’s your coffee-making going?",greeting
+1011,"Hey, how’s the shop today?",greeting
+1012,"Hello, how’s the vibe here?",greeting
+1013,"Hi, how’s the crowd?",greeting
+1014,"Hey, how’s the music?",greeting
+1015,"Hello, how’s the Wi-Fi today?",greeting
+1016,"Hi, how’s the seating?",greeting
+1017,"Hey, how’s the atmosphere?",greeting
+1018,"Hello, how’s the service today?",greeting
+1019,"Hi, how’s the barista doing?",greeting
+1020,"Hey, how’s the espresso machine working?",greeting
+1021,"Hello, how’s the coffee aroma?",greeting
+1022,"Hi, how’s the temperature in here?",greeting
+1023,"Hey, how’s the lighting?",greeting
+1024,"Hello, how’s the cleanliness?",greeting
+1025,"Hi, how’s the menu today?",greeting
+1026,"Hey, how’s the special brew?",greeting
+1027,"Hello, how’s the vibe at this hour?",greeting
+1028,"Hi, how’s the staff today?",greeting
+1029,"Hey, how’s the coffee art?",greeting
+1030,Thank you very much!,thank_you
+1031,Thanks a ton!,thank_you
+1032,Thank you for the coffee!,thank_you
+1033,Thanks for the quick service!,thank_you
+1034,Thank you for being so kind!,thank_you
+1035,Thanks for the recommendation!,thank_you
+1036,Thank you for the fast delivery!,thank_you
+1037,Thanks for making it perfect!,thank_you
+1038,Thank you for the extra caramel!,thank_you
+1039,Thanks for the free napkin!,thank_you
+1040,Thank you for the warm cup!,thank_you
+1041,Thanks for the friendly service!,thank_you
+1042,Thank you for the patience!,thank_you
+1043,Thanks for the great atmosphere!,thank_you
+1044,Thank you for the music choice!,thank_you
+1045,Thanks for the comfortable seat!,thank_you
+1046,Thank you for the Wi-Fi!,thank_you
+1047,Thanks for the clean table!,thank_you
+1048,Thank you for the quick refill!,thank_you
+1049,Thanks for the loyalty points!,thank_you
+1050,Thank you for the reusable cup!,thank_you
+1051,Thanks for the eco-friendly straw!,thank_you
+1052,Thank you for the perfect temperature!,thank_you
+1053,Thanks for the strong brew!,thank_you
+1054,Thank you for the smooth latte!,thank_you
+1055,Thanks for the frothy cappuccino!,thank_you
+1056,Thank you for the rich mocha!,thank_you
+1057,Thanks for the refreshing tea!,thank_you
+1058,Thank you for the calming chai!,thank_you
+1059,Thanks for the minty freshness!,thank_you
+1060,Thank you for the sweet hot chocolate!,thank_you
+1061,Thanks for the delicious matcha!,thank_you
+1062,Thank you for remembering my order!,thank_you
+1063,Thanks for the personalized touch!,thank_you
+1064,Thank you for the smile!,thank_you
+1065,Thanks for the positive energy!,thank_you
+1066,Thank you for the quick checkout!,thank_you
+1067,Thanks for the contactless payment!,thank_you
+1068,Thank you for the loyalty discount!,thank_you
+1069,Thanks for the birthday treat!,thank_you
+1070,Thank you for the surprise!,thank_you
+1071,Thanks for everything!,thank_you
+1072,See you next time!,goodbye
+1073,Have a good day!,goodbye
+1074,Have a great one!,goodbye
+1075,Have a nice evening!,goodbye
+1076,Catch you later!,goodbye
+1077,Adios!,goodbye
+1078,Cheers!,goodbye
+1079,"goodbye, take it easy!",goodbye
+1080,See you around!,goodbye
+1081,Have a wonderful day!,goodbye
+1082,Enjoy your coffee!,goodbye
+1083,Stay awesome!,goodbye
+1084,"goodbye, stay safe!",goodbye
+1085,"See you, all the best!",goodbye
+1086,"goodbye, drive safely!",goodbye
+1087,"goodbye, enjoy your weekend!",goodbye
+1088,"See you, happy sipping!",goodbye
+1089,"goodbye, stay caffeinated!",goodbye
+1090,"goodbye, keep smiling!",goodbye
+1091,"See you, stay warm!",goodbye
+1092,"goodbye, stay cool!",goodbye
+1093,"goodbye, happy brewing!",goodbye
+1094,"See you, happy hours!",goodbye
+1095,"goodbye, sweet dreams!",goodbye
+1096,"goodbye, stay cozy!",goodbye
+1097,"See you, stay refreshed!",goodbye
+1098,"goodbye, stay energized!",goodbye
+1099,"goodbye, keep the buzz going!",goodbye
+1100,"See you, stay productive!",goodbye
+1101,"goodbye, stay inspired!",goodbye
+1102,"goodbye, stay creative!",goodbye
+1103,"See you, stay happy!",goodbye
+1104,"goodbye, stay blessed!",goodbye
+1105,"goodbye, stay positive!",goodbye
+1106,"See you, stay amazing!",goodbye
+1107,"goodbye, stay wonderful!",goodbye
+1108,"goodbye, stay fantastic!",goodbye
+1109,When do you open?,open_time
+1110,What time does the coffee shop open?,open_time
+1111,Are you open in the morning?,open_time
+1112,Do you open at 8 AM?,open_time
+1113,Is the shop open early?,open_time
+1114,What time do you start serving coffee?,open_time
+1115,Can I come in at 8:30 AM?,open_time
+1116,Do you open on weekends?,open_time
+1117,Are you open every day?,open_time
+1118,What’s the earliest I can get coffee?,open_time
+1119,Is the café open by 9 AM?,open_time
+1120,Do you open at the same time every day?,open_time
+1121,What time do the doors open?,open_time
+1122,Can I get coffee at 8:15 AM?,open_time
+1123,Are you open for breakfast?,open_time
+1124,Do you open before 9 AM?,open_time
+1125,What time does the shop unlock?,open_time
+1126,Is the counter open at 8:05 AM?,open_time
+1127,Do you start serving at 8 AM sharp?,open_time
+1128,Can I order at 8:10 AM?,open_time
+1129,Are you open during holidays?,open_time
+1130,Do you open later on Sundays?,open_time
+1131,Is the café open on public holidays?,open_time
+1132,What time do baristas start work?,open_time
+1133,Do you open earlier in summer?,open_time
+1134,Are you open during Christmas?,open_time
+1135,Do you open on New Year’s Day?,open_time
+1136,Is the shop open during Tet?,open_time
+1137,Do you open earlier for special events?,open_time
+1138,Can I come before official opening?,open_time
+1139,Is the seating area open at 8 AM?,open_time
+1140,Do you open earlier for regulars?,open_time
+1141,What time does the kitchen open?,open_time
+1142,Are pastries available at opening?,open_time
+1143,Do you open earlier for takeaway?,open_time
+1144,Is Wi-Fi available at opening?,open_time
+1145,Do you open earlier for students?,open_time
+1146,Can I reserve a table before opening?,open_time
+1147,Is the outdoor seating open early?,open_time
+1148,Do you open earlier in exam season?,open_time
+1149,Are you open during university breaks?,open_time
+1150,Do you open earlier for faculty?,open_time
+1151,Is the shop open during renovations?,open_time
+1152,Do you open earlier for FPT staff?,open_time
+1153,Are you open during heavy rain?,open_time
+1154,Do you open earlier for delivery?,open_time
+1155,Is the café open during power outages?,open_time
+1156,Do you open earlier for VIPs?,open_time
+1157,Are you open during construction?,open_time
+1158,What time does the coffee shop close?,close_time
+1159,Do you close at 9 PM sharp?,close_time
+1160,Is the shop open late?,close_time
+1161,What time do you stop serving coffee?,close_time
+1162,Can I come in at 8:45 PM?,close_time
+1163,Do you close earlier on weekends?,close_time
+1164,Are you open until late every day?,close_time
+1165,What’s the latest I can get coffee?,close_time
+1166,Is the café open past 9 PM?,close_time
+1167,Do you close at the same time every day?,close_time
+1168,What time do the doors close?,close_time
+1169,Can I get coffee at 8:50 PM?,close_time
+1170,Are you open for late-night drinks?,close_time
+1171,Do you close before 10 PM?,close_time
+1172,What time does the shop lock up?,close_time
+1173,Is the counter open until 9 PM?,close_time
+1174,Do you stop serving at 9 PM sharp?,close_time
+1175,Can I order at 8:55 PM?,close_time
+1176,Are you open during late events?,close_time
+1177,Do you close later on Fridays?,close_time
+1178,Is the café open for late study sessions?,close_time
+1179,What time do baristas finish work?,close_time
+1180,Do you close earlier in winter?,close_time
+1181,Are you open during late concerts?,close_time
+1182,Do you close on special holidays?,close_time
+1183,Is the shop open during late exams?,close_time
+1184,Do you stay open later for special events?,close_time
+1185,Can I stay past closing time?,close_time
+1186,Is the seating area open until 9 PM?,close_time
+1187,Do you close later for regulars?,close_time
+1188,What time does the kitchen close?,close_time
+1189,Are pastries available until closing?,close_time
+1190,Do you close later for takeaway?,close_time
+1191,Is Wi-Fi available until closing?,close_time
+1192,Do you close later for students?,close_time
+1193,Can I stay longer if I’m studying?,close_time
+1194,Is the outdoor seating open late?,close_time
+1195,Do you close later in exam season?,close_time
+1196,Are you open during late university events?,close_time
+1197,Do you close later for faculty?,close_time
+1198,Is the shop open during late renovations?,close_time
+1199,Do you close later for FPT staff?,close_time
+1200,Are you open during late-night rain?,close_time
+1201,Do you close later for delivery?,close_time
+1202,Is the café open during late outages?,close_time
+1203,Do you close later for VIPs?,close_time
+1204,Are you open during late construction?,close_time
+1205,What’s the address of the café?,location
+1206,Is the coffee shop near FPT University?,location
+1207,Can you give me directions?,location
+1208,Is it inside the university?,location
+1209,Is the café easy to find?,location
+1210,What’s the nearest landmark?,location
+1211,Is there parking nearby?,location
+1212,Is it close to public transport?,location
+1213,Is the café on campus?,location
+1214,Which building is it in?,location
+1215,Is it near the library?,location
+1216,Is it close to the cafeteria?,location
+1217,What’s the closest bus stop?,location
+1218,Is there a taxi stand nearby?,location
+1219,Is it near the main gate?,location
+1220,Is the café in District 9?,location
+1221,Is it near the dormitories?,location
+1222,Is it inside a shopping area?,location
+1223,Is the café in a standalone building?,location
+1224,Is it near any restaurants?,location
+1225,Is it close to the sports complex?,location
+1226,Is there signage outside?,location
+1227,Is it on the ground floor?,location
+1228,Is it near the admin office?,location
+1229,Is it accessible by bike?,location
+1230,Is there a bike rack outside?,location
+1231,Is it near the student center?,location
+1232,Is it near any classrooms?,location
+1233,Is it close to the auditorium?,location
+1234,Is it near the IT building?,location
+1235,Is it near the engineering block?,location
+1236,Is it near the business school?,location
+1237,Is it near the design faculty?,location
+1238,Is it near the science labs?,location
+1239,Is it near the parking lot?,location
+1240,Is it near the main road?,location
+1241,Is it near the university gate?,location
+1242,Is it near the security booth?,location
+1243,Is it near the basketball court?,location
+1244,Is it near the swimming pool?,location
+1245,Is it near the gym?,location
+1246,Is it near the bookstore?,location
+1247,Is it near the photocopy shop?,location
+1248,Is it near the ATM?,location
+1249,Is it near the pharmacy?,location
+1250,Is it near the convenience store?,location
+1251,Is it near the post office?,location
+1252,Is it near the bus terminal?,location
+1253,Is it near the metro station?,location
+1254,What’s on the menu?,menu
+1255,Do you serve coffee?,menu
+1256,What types of coffee do you have?,menu
+1257,Do you have tea options?,menu
+1258,What kind of tea do you serve?,menu
+1259,Do you offer hot chocolate?,menu
+1260,Is matcha latte available?,menu
+1261,What’s your specialty drink?,menu
+1262,Do you have any iced drinks?,menu
+1263,What’s the most popular item?,menu
+1264,Do you have black tea?,menu
+1265,Is chai tea on the menu?,menu
+1266,Do you serve green mint tea?,menu
+1267,Is white mocha available?,menu
+1268,Do you have flavored lattes?,menu
+1269,What’s in a mocha?,menu
+1270,Do you have decaf coffee?,menu
+1271,Is there a seasonal drink?,menu
+1272,Do you offer any snacks?,menu
+1273,Are pastries available?,menu
+1274,Do you have vegan options?,menu
+1275,Is oat milk available?,menu
+1276,Do you have almond milk?,menu
+1277,Is soy milk an option?,menu
+1278,Do you offer sugar-free syrup?,menu
+1279,Can I get extra espresso shots?,menu
+1280,Do you have whipped cream?,menu
+1281,Is caramel drizzle available?,menu
+1282,Do you offer cinnamon sprinkles?,menu
+1283,Can I get a custom drink?,menu
+1284,Do you have a kid’s menu?,menu
+1285,Is there a student discount?,menu
+1286,Do you offer combo deals?,menu
+1287,Is there a loyalty program?,menu
+1288,Do you have a signature drink?,menu
+1289,What’s the strongest coffee?,menu
+1290,Do you have a mild coffee?,menu
+1291,Is there a low-acid option?,menu
+1292,Do you serve cold brew?,menu
+1293,Is nitro coffee available?,menu
+1294,Do you have frappes?,menu
+1295,Is there a smoothie option?,menu
+1296,Do you serve milkshakes?,menu
+1297,Is there a dairy-free option?,menu
+1298,Do you have gluten-free items?,menu
+1299,Is there a nut-free option?,menu
+1300,Do you offer organic coffee?,menu
+1301,Is fair-trade coffee available?,menu
+1302,Do you have single-origin beans?,menu
+1303,Is there a limited-edition drink?,menu
+1304,Can I cancel my order?,cancel_order
+1305,How do I cancel my coffee order?,cancel_order
+1306,Is it possible to cancel after ordering?,cancel_order
+1307,Can I stop my order if it’s not ready?,cancel_order
+1308,Do you allow order cancellations?,cancel_order
+1309,What’s your cancellation policy?,cancel_order
+1310,Can I cancel if the barista hasn’t started?,cancel_order
+1311,Is there a fee for canceling?,cancel_order
+1312,Can I cancel online orders?,cancel_order
+1313,How long do I have to cancel?,cancel_order
+1314,Can I cancel a takeaway order?,cancel_order
+1315,Can I cancel a delivery order?,cancel_order
+1316,Can I cancel if I change my mind?,cancel_order
+1317,Can I cancel and get a refund?,cancel_order
+1318,Can I cancel before payment?,cancel_order
+1319,Can I cancel after payment?,cancel_order
+1320,Can I cancel part of my order?,cancel_order
+1321,Can I cancel if the wait is too long?,cancel_order
+1322,Can I cancel if I’m running late?,cancel_order
+1323,Can I cancel if the order is wrong?,cancel_order
+1324,Can I cancel if I’m not satisfied?,cancel_order
+1325,Can I cancel and reorder?,cancel_order
+1326,Can I cancel via phone?,cancel_order
+1327,Can I cancel in person?,cancel_order
+1328,Can I cancel through the app?,cancel_order
+1329,Can I cancel at the counter?,cancel_order
+1330,Can I cancel before it’s prepared?,cancel_order
+1331,Can I cancel during peak hours?,cancel_order
+1332,Can I cancel a group order?,cancel_order
+1333,Can I cancel a pre-order?,cancel_order
+1334,Can I cancel a subscription?,cancel_order
+1335,Can I cancel a recurring order?,cancel_order
+1336,Can I cancel if I’m outside?,cancel_order
+1337,Can I cancel if I’m inside?,cancel_order
+1338,Can I cancel if I’m in a hurry?,cancel_order
+1339,Can I cancel if I forgot my wallet?,cancel_order
+1340,Can I cancel if my card is declined?,cancel_order
+1341,Can I cancel if I’m sick?,cancel_order
+1342,Can I cancel if I’m not coming?,cancel_order
+1343,Can I cancel if my friend isn’t here?,cancel_order
+1344,Can I cancel if the weather is bad?,cancel_order
+1345,Can I cancel if the shop is crowded?,cancel_order
+1346,Can I cancel if I’m stuck in traffic?,cancel_order
+1347,Can I cancel if I’m not hungry?,cancel_order
+1348,Can I cancel if I’m allergic?,cancel_order
+1349,Can I cancel if I’m on a diet?,cancel_order
+1350,Can I cancel if I’m fasting?,cancel_order
+1351,Can I cancel if I’m vegan now?,cancel_order
+1352,Can I cancel if I’m lactose intolerant?,cancel_order
+1353,Can I cancel if I’m gluten-free now?,cancel_order
+1354,How do I modify my coffee order?,change_order
+1355,Is it possible to add extra shots?,change_order
+1356,Can I switch from hot to iced?,change_order
+1357,Can I change my milk choice?,change_order
+1358,Can I adjust the sweetness level?,change_order
+1359,Can I add toppings after ordering?,change_order
+1360,Can I remove an item from my order?,change_order
+1361,Can I upgrade my drink size?,change_order
+1362,Can I downgrade my drink size?,change_order
+1363,Can I swap my latte for a cappuccino?,change_order
+1364,Can I change my tea flavor?,change_order
+1365,Can I add syrup after ordering?,change_order
+1366,Can I change my order to takeaway?,change_order
+1367,Can I change it to 'for here'?,change_order
+1368,Can I add a pastry to my order?,change_order
+1369,Can I remove whipped cream?,change_order
+1370,Can I add caramel drizzle?,change_order
+1371,Can I change my order if it’s wrong?,change_order
+1372,Can I customize after ordering?,change_order
+1373,Can I change my order before payment?,change_order
+1374,Can I change it after payment?,change_order
+1375,Can I modify an online order?,change_order
+1376,Can I change a delivery order?,change_order
+1377,Can I adjust my order at the counter?,change_order
+1378,Can I change it via phone?,change_order
+1379,Can I modify through the app?,change_order
+1380,Can I change my order in person?,change_order
+1381,Can I switch to a different drink?,change_order
+1382,Can I change if the barista hasn’t started?,change_order
+1383,Can I modify during peak hours?,change_order
+1384,Can I change a group order?,change_order
+1385,Can I adjust a pre-order?,change_order
+1386,Can I change a subscription order?,change_order
+1387,Can I modify a recurring order?,change_order
+1388,Can I change if I’m outside?,change_order
+1389,Can I change if I’m inside?,change_order
+1390,Can I modify if I’m in a hurry?,change_order
+1391,Can I change if I forgot something?,change_order
+1392,Can I adjust if my friend wants something else?,change_order
+1393,Can I change if the weather affects my choice?,change_order
+1394,Can I modify if the shop is crowded?,change_order
+1395,Can I change if I’m stuck in traffic?,change_order
+1396,Can I adjust if I’m not hungry anymore?,change_order
+1397,Can I change if I’m allergic?,change_order
+1398,Can I modify if I’m on a diet?,change_order
+1399,Can I change if I’m fasting?,change_order
+1400,Can I adjust if I’m vegan now?,change_order
+1401,Can I change if I’m lactose intolerant?,change_order
+1402,Can I modify if I’m gluten-free now?,change_order
+1403,Do you have any promotions?,promotion
+1404,Are there any discounts?,promotion
+1405,Do you offer student discounts?,promotion
+1406,Is there a seasonal promotion?,promotion
+1407,Is there a referral bonus?,promotion
+1408,Do you have combo deals?,promotion
+1409,Is there a weekend special?,promotion
+1410,Do you offer bulk discounts?,promotion
+1411,Is there a morning promo?,promotion
+1412,Do you have evening discounts?,promotion
+1413,Is there a holiday promotion?,promotion
+1414,Do you offer first-time discounts?,promotion
+1415,Is there a membership discount?,promotion
+1416,Do you have a coffee subscription?,promotion
+1417,Is there a free refill policy?,promotion
+1418,Do you offer free toppings?,promotion
+1419,Is there a free pastry with coffee?,promotion
+1420,Do you have a points system?,promotion
+1421,Is there a cashback offer?,promotion
+1422,Do you offer free delivery?,promotion
+1423,Is there a discount for FPT students?,promotion
+1424,Do you have a faculty discount?,promotion
+1425,Is there a staff discount?,promotion
+1426,Do you offer military discounts?,promotion
+1427,Is there a senior citizen discount?,promotion
+1428,Do you have a kids-eat-free deal?,promotion
+1429,Is there a group discount?,promotion
+1430,Do you offer event discounts?,promotion
+1431,Is there a coupon system?,promotion
+1432,Do you accept discount vouchers?,promotion
+1433,Is there an app-exclusive deal?,promotion
+1434,Do you have social media promotions?,promotion
+1435,Is there an email subscription offer?,promotion
+1436,Do you offer early-bird discounts?,promotion
+1437,Is there a late-night promo?,promotion
+1438,Do you have a rainy-day discount?,promotion
+1439,Is there a summer special?,promotion
+1440,Do you offer winter promotions?,promotion
+1441,Is there a back-to-school deal?,promotion
+1442,Do you have exam-season discounts?,promotion
+1443,Is there a graduation promo?,promotion
+1444,Do you offer anniversary discounts?,promotion
+1445,Is there a new-branch promotion?,promotion
+1446,Do you have a reopening deal?,promotion
+1447,Is there a clearance sale?,promotion
+1448,Do you offer flash sales?,promotion
+1449,Ta-ta!,goodbye
+1450,So long!,goodbye
+1451,Be seeing you!,goodbye
+1452,All the best!,goodbye
+1453,Good seeing you!,goodbye
+1454,Have a nice one!,goodbye
+1455,Safe travels!,goodbye
+1456,Until we meet again!,goodbye
+1457,Stay well!,goodbye
+1458,Godspeed!,goodbye
+1459,Toodle-oo!,goodbye
+1460,Enjoy the rest of your day!,goodbye
+1461,Later days!,goodbye
+1462,goodbye now!,goodbye
+1463,Take care now!,goodbye
+1464,See you next week!,goodbye
+1465,Ciao!,goodbye
+1466,Auf Wiedersehen!,goodbye
+1467,Arrivederci!,goodbye
+1468,Au revoir!,goodbye
+1469,Sayonara!,goodbye
+1470,Adieu!,goodbye
+1471,Happy trails!,goodbye
+1472,Drive safe!,goodbye
+1473,Until later!,goodbye
+1474,See you in a bit!,goodbye
+1475,Keep smiling!,goodbye
+1476,Stay cool!,goodbye
+1477,Stay warm!,goodbye
+1478,Stay classy!,goodbye
+1479,Stay caffeinated!,goodbye
+1480,Keep the buzz going!,goodbye
+1481,Happy sipping!,goodbye
+1482,See you after class!,goodbye
+1483,See you on campus!,goodbye
+1484,Until next coffee!,goodbye
+1485,See you at the next study session!,goodbye
+1486,Stay focused!,goodbye
+1487,Good luck with your studies!,goodbye
+1488,Happy studying!,goodbye
+1489,See you at the library!,goodbye
+1490,Keep that energy up!,goodbye
+1491,Stay refreshed!,goodbye
+1492,Stay hydrated!,goodbye
+1493,See you during finals!,goodbye
+1494,See you in the next lecture!,goodbye
+1495,See you at lunch!,goodbye
+1496,Until dinner!,goodbye
+1497,goodbye for the weekend!,goodbye
+1498,Have a great weekend!,goodbye
+1499,Enjoy your break!,goodbye
+1500,Happy holidays!,goodbye
+1501,See you next semester!,goodbye
+1502,Stay dry!,goodbye
+1503,Stay cozy!,goodbye
+1504,Stay cool in this heat!,goodbye
+1505,Goodnight!,goodbye
+1506,Sweet dreams!,goodbye
+1507,See you in the morning!,goodbye
+1508,Take it slow!,goodbye
+1509,Don't work too hard!,goodbye
+1510,Stay chill!,goodbye
+1511,Keep it real!,goodbye
+1512,Stay golden!,goodbye
+1513,Peace!,goodbye
+1514,Smell ya later!,goodbye
+1515,See you on the flip side!,goodbye
+1516,Catch you on the rebound!,goodbye
+1517,Hasta la vista!,goodbye
+1518,Hasta luego!,goodbye
+1519,Hasta mañana!,goodbye
+1520,Good talking with you!,goodbye
+1521,Nice catching up!,goodbye
+1522,Great seeing you!,goodbye
+1523,See you next visit!,goodbye
+1524,Come back soon!,goodbye
+1525,We'll miss you!,goodbye
+1526,Your table will be waiting!,goodbye
+1527,See you tomorrow morning!,goodbye
+1528,Until your next coffee run!,goodbye
+1529,See you for your usual!,goodbye
+1530,Keep that coffee buzz!,goodbye
+1531,Stay perky!,goodbye
+1532,Stay alert!,goodbye
+1533,Stay brilliant!,goodbye
+1534,Stay inspired!,goodbye
+1535,Stay creative!,goodbye
+1536,Stay motivated!,goodbye
+1537,Keep coding!,goodbye
+1538,Keep designing!,goodbye
+1539,Keep studying!,goodbye
+1540,See you in the lab!,goodbye
+1541,See you in class!,goodbye
+1542,See you at the presentation!,goodbye
+1543,Good luck with your project!,goodbye
+1544,Break a leg!,goodbye
+1545,You'll do great!,goodbye
+1546,Ace it!,goodbye
+1547,Crush it!,goodbye
+1548,See you after your victory!,goodbye
+1549,See you on the leaderboard!,goodbye
+1550,Stay ambitious!,goodbye
+1551,Stay hungry!,goodbye
+1552,Stay curious!,goodbye
+1553,Stay learning!,goodbye
+1554,See you in the stacks!,goodbye
+1555,See you next coffee break!,goodbye
+1556,See you at the next meeting!,goodbye
+1557,See you on Zoom!,goodbye
+1558,See you online!,goodbye
+1559,See you in cyberspace!,goodbye
+1560,See you on shore!,goodbye
+1561,"Nope, cancel that order—I changed my mind like I change my hair color.",cancel_order
+1562,That drink? Cancelled. Like my subscription to basic.,cancel_order
+1563,Delete my order like I delete toxic DMs.,cancel_order
+1564,Abort! That coffee doesn’t match my energy today.,cancel_order
+1565,"Scratch that—I’m not feeling it. goodbye, Felicia.",cancel_order
+1566,"Nah, reverse it. I’m not caffeinated enough for regrets.",cancel_order
+1567,Cancel that drink like a last-minute Tinder date.,cancel_order
+1568,That order? Over. Like my patience for slow Wi-Fi.,cancel_order
+1569,Ctrl+Z that latte—I’m rewinding my choices.,cancel_order
+1570,That mocha? *Blocked.*,cancel_order
+1571,Yeet my order into the abyss where it belongs.,cancel_order
+1572,Nope. That drink is *not* serving cunt today.,cancel_order
+1573,Cancel it. I’m manifesting better coffee elsewhere.,cancel_order
+1574,That order? *Excommunicated.*,cancel_order
+1575,Erase it like my browser history.,cancel_order
+1576,That americano? *Disowned.*,cancel_order
+1577,"Nah, I’m good. That drink was mid anyway.",cancel_order
+1578,Cancel. I’d rather drink water than that energy.,cancel_order
+1579,That latte? *Fired.*,cancel_order
+1580,Scratch it. I’m not settling for mediocrity.,cancel_order
+1581,Nope. That cappuccino? *Cancelled with prejudice.*,cancel_order
+1582,Delete. I’m not wasting my coins on that.,cancel_order
+1583,That drink? *Voided.* Like my ex’s apologies.,cancel_order
+1584,Cancel. I’m not drinking my feelings today.,cancel_order
+1585,That order? *Invalid.* Like my sleep schedule.,cancel_order
+1586,"Nah, reverse it. I’m not that desperate.",cancel_order
+1587,That mocha? *Terminated.* Like my last brain cell.,cancel_order
+1588,Cancel. I’d rather chew ice.,cancel_order
+1589,That drink? *Denied.* Like my bank loan.,cancel_order
+1590,Nope. That coffee? *Rejected.* Like my fanfic.,cancel_order
+1591,Scratch it. I’m not drinking regret today.,cancel_order
+1592,That order? *Nullified.* Like my will to live.,cancel_order
+1593,Cancel. I’m not paying for bad vibes.,cancel_order
+1594,That latte? *Discontinued.* Like my motivation.,cancel_order
+1595,"Nah, I’m out. That drink was a flop.",cancel_order
+1596,Cancel. I’d rather sip air.,cancel_order
+1597,That americano? *Revoked.* Like my gym membership.,cancel_order
+1598,Delete. I’m not caffeinating my bad decisions.,cancel_order
+1599,That drink? *Obliterated.* Like my self-control.,cancel_order
+1600,Cancel. I’m not that girl.,cancel_order
+1601,Nope. That order? *Incinerated.*,cancel_order
+1602,Scratch it. I’m not drinking that weak energy.,cancel_order
+1603,That mocha? *Annihilated.* Like my serotonin.,cancel_order
+1604,Cancel. I’d rather drink tears.,cancel_order
+1605,That latte? *Eradicated.* Like my hopes and dreams.,cancel_order
+1606,"Nah, reverse it. I’m not that bored.",cancel_order
+1607,That drink? *Extinguished.* Like my last candle.,cancel_order
+1608,Cancel. I’m not funding bad espresso.,cancel_order
+1609,That order? *Liquidated.* Like my assets.,cancel_order
+1610,Nope. That coffee? *Disintegrated.*,cancel_order
+1611,Delete. I’m not drinking trauma today.,cancel_order
+1612,That cappuccino? *Neutralized.* Like my emotions.,cancel_order
+1613,Cancel. I’d rather lick a battery.,cancel_order
+1614,That drink? *Ousted.* Like my last roommate.,cancel_order
+1615,"Nah, I’m good. That order was a scam.",cancel_order
+1616,Cancel. I’m not that thirsty.,cancel_order
+1617,That americano? *Banished.* Like my ex.,cancel_order
+1618,Scratch it. I’m not drinking lies.,cancel_order
+1619,That mocha? *Exiled.* Like my last nerve.,cancel_order
+1620,Cancel. I’d rather drink liquid disappointment.,cancel_order
+1621,Nope. That order? *Disposed.* Like my potential.,cancel_order
+1622,That latte? *Obliviated.* Like my memory of this convo.,cancel_order
+1623,Cancel. I’m not caffeinating chaos today.,cancel_order
+1624,That drink? *Erased.* Like my productivity.,cancel_order
+1625,"Nah, reverse it. I’m not that committed.",cancel_order
+1626,Cancel. I’d rather drink existential dread.,cancel_order
+1627,That order? *Vaporized.* Like my bank balance.,cancel_order
+1628,Delete. I’m not drinking basic.,cancel_order
+1629,That cappuccino? *Obliterated.* Like my patience.,cancel_order
+1630,Cancel. I’m not paying for mid.,cancel_order
+1631,Nope. That drink? *Decimated.* Like my sleep.,cancel_order
+1632,Scratch it. I’m not drinking regret.,cancel_order
+1633,That mocha? *Extirpated.* Like my last good idea.,cancel_order
+1634,Cancel. I’d rather drink liquid silence.,cancel_order
+1635,That order? *Expunged.* Like my dignity.,cancel_order
+1636,"Nah, I’m out. That coffee was a mistake.",cancel_order
+1637,Cancel. I’m not that caffeinated.,cancel_order
+1638,That americano? *Dissolved.* Like my willpower.,cancel_order
+1639,Delete. I’m not drinking nonsense today.,cancel_order
+1640,That latte? *Disassembled.* Like my life choices.,cancel_order
+1641,Cancel. I’d rather drink existential crisis.,cancel_order
+1642,Nope. That drink? *Pulverized.*,cancel_order
+1643,That order? *Liquefied.* Like my motivation.,cancel_order
+1644,Cancel. I’m not funding mediocrity.,cancel_order
+1645,Scratch it. I’m not drinking bad decisions.,cancel_order
+1646,That mocha? *Demolished.* Like my self-esteem.,cancel_order
+1647,Cancel. I’d rather drink liquid chaos.,cancel_order
+1648,"Nah, reverse it. I’m not that invested.",cancel_order
+1649,That cappuccino? *Shattered.* Like my phone screen.,cancel_order
+1650,Cancel. I’m not caffeinating disaster.,cancel_order
+1651,Delete. I’m not drinking weak energy.,cancel_order
+1652,That order? *Incinerated.* Like my last hope.,cancel_order
+1653,Cancel. I’d rather drink liquid regret.,cancel_order
+1654,Nope. That drink? *Obliterated.* Like my inbox.,cancel_order
+1655,That americano? *Disemboweled.* Like my last text.,cancel_order
+1656,Cancel. I’m not paying for mid vibes.,cancel_order
+1657,Scratch it. I’m not drinking that energy.,cancel_order
+1658,That latte? *Annihilated.* Like my attention span.,cancel_order
+1659,Cancel. I’d rather drink liquid amnesia.,cancel_order
+1660,"Nah, I’m good. That order was a fluke.",cancel_order
+1661,Delete. I’m not drinking bad juju.,cancel_order
+1662,That mocha? *Exterminated.* Like my last brain cell.,cancel_order
+1663,Cancel. I’m not caffeinating nonsense.,cancel_order
+1664,That drink? *Disintegrated.* Like my social life.,cancel_order
+1665,Nope. That order? *Voided.* Like my ex’s promises.,cancel_order
+1666,Scratch it. I’m not drinking weak sauce.,cancel_order
+1667,That americano? *Neutralized.* Like my emotions.,cancel_order
+1668,That order? *Banished.* Like my last nerve.,cancel_order
+1669,Nope. That drink? *Incinerated.*,cancel_order
+1670,That mocha? *Obliterated.* Like my self-control.,cancel_order
+1671,Nope. That drink? *Disposed.* Like my potential.,cancel_order
+1672,Scratch it. I’m not drinking bad juju.,cancel_order
+1673,Delete. I’m not drinking weak sauce.,cancel_order
+1674,Nope. That drink? *Disintegrated.* Like my social life.,cancel_order
+1675,That order? *Voided.* Like my ex’s promises.,cancel_order
+1676,"Yo, hit me with that White Mocha - make it dirty.",order
+1677,"Slide me a Cappuccino, extra shady.",order
+1678,"I need an Americano - stat, no cap.",order
+1679,"Fuel my rebellion with a Latte, hold the corporate vibes.",order
+1680,Mocha me like you mean it - I'm running on empty.,order
+1681,"Black Tea, straight up - no snitchin'.",order
+1682,"Chai Tea, extra spicy - just like my temper.",order
+1683,Green Mint to calm my demons - heavy on the mint.,order
+1684,"Hot Chocolate, make it illegal.",order
+1685,Matcha Latte - the kind that makes accountants nervous.,order
+1686,"Americano, black as my soul before coffee.",order
+1687,Cappuccino - frothy enough to hide my sins.,order
+1688,"Latte, make it sweet enough to forget my deadlines.",order
+1689,"Mocha, so good it should be against campus policy.",order
+1690,White Mocha - the liquid equivalent of bad decisions.,order
+1691,"Black Tea, no sweetener - I like my drinks like my humor.",order
+1692,"Chai Tea, extra strong - gotta stay woke.",order
+1693,"Green Mint, iced - cool me down before I snap.",order
+1694,"Hot Chocolate, add a shot of rebellion.",order
+1695,"Matcha Latte, extra matcha - I need the green energy.",order
+1696,"Americano, double shot - I ain't sleeping tonight.",order
+1697,"Cappuccino, dry - like my social skills.",order
+1698,"Latte, extra foam - I'm feeling bougie today.",order
+1699,"Mocha, keep the whipped cream coming.",order
+1700,"White Mocha, extra sweet - just like my lies.",order
+1701,"Black Tea, lemon on the side - don't mix my vibes.",order
+1702,"Chai Tea, hold the basic - make it street.",order
+1703,"Green Mint, no sugar - I'm bitter enough already.",order
+1704,"Hot Chocolate, extra marshmallows - I'm regressing today.",order
+1705,"Matcha Latte, make it photogenic - the 'gram needs content.",order
+1706,"Americano, iced - cool my rage.",order
+1707,"Cappuccino, extra cinnamon - sprinkle some chaos on top.",order
+1708,"Latte, almond milk - I'm extra like that.",order
+1709,"Mocha, dark as my browser history.",order
+1710,"White Mocha, extra caramel - sticky fingers incoming.",order
+1711,"Black Tea, honey on the side - sweeten my misery.",order
+1712,"Chai Tea, soy milk - I'm complicated.",order
+1713,"Green Mint, extra ice - chill my temper.",order
+1714,"Hot Chocolate, extra hot - just like my takes.",order
+1715,"Matcha Latte, oat milk - I'm basic but woke.",order
+1716,"Americano, quad shot - I have poor life choices to make.",order
+1717,"Cappuccino, extra foam - I'm avoiding reality today.",order
+1718,"Latte, vanilla syrup - sweeten the deal.",order
+1719,"Mocha, extra chocolate - I'm here for a good time.",order
+1720,"White Mocha, extra espresso - I'm here for a long time.",order
+1721,"Black Tea, bergamot if you got it - fancy rebellion.",order
+1722,"Chai Tea, extra cardamom - spice up my life.",order
+1723,"Green Mint, no ice - I'm cold enough inside.",order
+1724,"Hot Chocolate, extra whipped cream - bury my sorrows.",order
+1725,"Matcha Latte, extra sweet - green is my happy color.",order
+1726,"Americano, long black - just like my rap sheet.",order
+1727,"Cappuccino, wet - unlike my humor.",order
+1728,"Latte, caramel drizzle - sweeten my cynicism.",order
+1729,"Mocha, extra dark - like my sense of humor.",order
+1730,"White Mocha, extra white - ironic, I know.",order
+1731,"Black Tea, extra strong - just like my opinions.",order
+1732,"Chai Tea, extra ginger - for my cold, dead heart.",order
+1733,"Green Mint, extra green - match my envy.",order
+1734,"Hot Chocolate, extra chocolate - I'm in my feels.",order
+1735,"Matcha Latte, extra frothy - I'm extra today.",order
+1736,"Americano, ristretto - short and bitter, like me.",order
+1737,"Cappuccino, extra dry - like my will to live.",order
+1738,"Latte, hazelnut syrup - nutty like my professor.",order
+1739,"Mocha, extra whipped - I'm indulging today.",order
+1740,"White Mocha, extra vanilla - basic bitch energy.",order
+1741,"Black Tea, extra lemon - sour like my mood.",order
+1742,"Chai Tea, extra spicy - like my comebacks.",order
+1743,"Green Mint, extra fresh - cleanse my palate from BS.",order
+1744,"Hot Chocolate, extra thick - drown my sorrows.",order
+1745,"Matcha Latte, extra aesthetic - for the 'gram.",order
+1746,"Americano, iced and bitter - just like my ex.",order
+1747,"Cappuccino, extra foam art - make it a dickbutt.",order
+1748,"Latte, extra hot - like my temper in group projects.",order
+1749,"Mocha, extra chocolate sauce - I'm stress-eating.",order
+1750,"White Mocha, extra sweet - compensate for my personality.",order
+1751,"Black Tea, extra bergamot - fancy depression.",order
+1752,"Chai Tea, extra milky - softboi hours.",order
+1753,"Green Mint, extra green - match my envy of people who sleep.",order
+1754,"Hot Chocolate, extra whipped - bury my deadlines.",order
+1755,"Matcha Latte, extra Instagrammable - fake it till you make it.",order
+1756,"Americano, extra water - dilute my poor choices.",order
+1757,"Cappuccino, extra cinnamon - spice up this dull day.",order
+1758,"Latte, extra caramel - sweeten this bitter pill called life.",order
+1759,"Mocha, extra espresso - I chose violence today.",order
+1760,"White Mocha, extra vanilla - basic but effective.",order
+1761,"Black Tea, extra strong - like my caffeine dependency.",order
+1762,"Chai Tea, extra cardamom - exotic like my sleep schedule.",order
+1763,"Green Mint, extra fresh - mask my bad breath from all-nighters.",order
+1764,"Hot Chocolate, extra marshmallows - childhood regression activated.",order
+1765,"Matcha Latte, extra aesthetic - my feed needs content.",order
+1766,"Americano, black as my future.",order
+1767,"Cappuccino, extra foam - cushion my inevitable breakdown.",order
+1768,"Latte, extra sweet - like the lies I tell myself about studying.",order
+1769,"Mocha, extra chocolate - because adulting is hard.",order
+1770,"White Mocha, extra white - ironic for a goth.",order
+1771,"Black Tea, extra lemon - tart like my personality.",order
+1772,"Chai Tea, extra spicy - like my memes.",order
+1773,"Green Mint, extra green - like my envy of functional people.",order
+1774,"Hot Chocolate, extra thick - like my skull from all this knowledge.",order
+1775,"Matcha Latte, extra extra - because one extra wasn't enough.",order
+1776,"Americano, iced - cool my burning rage at this group project.",order
+1777,"Cappuccino, extra dry - like my sense of humor after midterms.",order
+1778,"Latte, extra vanilla - sweeten this bitter existence.",order
+1779,"Mocha, extra whipped cream - bury my sorrows in dairy.",order
+1780,"White Mocha, extra caramel - sticky fingers, no regrets.",order
+1781,"Black Tea, extra bergamot - fancy like my avoidance tactics.",order
+1782,"Chai Tea, extra ginger - for my non-existent immune system.",order
+1783,"Green Mint, extra fresh - cleanse my palate of cafeteria food.",order
+1784,"Hot Chocolate, extra chocolate - because I'm an adult (allegedly).",order
+1785,"Matcha Latte, extra photogenic - my followers demand content.",order
+1786,"Americano, quad shot - I have poor decisions to make.",order
+1787,"Cappuccino, extra foam art - surprise me, barista.",order
+1788,"Latte, extra hazelnut - nutty like my sleep-deprived brain.",order
+1789,"Mocha, extra dark - like my browser history.",order
+1790,"White Mocha, extra sweet - like my fake smile in morning classes.",order
+1791,"Black Tea, extra lemon - sour like my outlook on finals.",order
+1792,"Chai Tea, extra spicy - like my temper during exams.",order
+1793,"Green Mint, extra green - match my envy of people who prepared.",order
+1794,"Hot Chocolate, extra whipped - bury my academic failures.",order
+1795,"Matcha Latte, extra aesthetic - for the aesthetic.",order
+1796,"Americano, long black - like my list of regrets.",order
+1797,"Cappuccino, extra cinnamon - spice up this dull lecture day.",order
+1798,"Latte, extra caramel - sweeten this bitter reality.",order
+1799,"Mocha, extra chocolate - because I deserve it (probably).",order
+1800,"White Mocha, extra vanilla - basic but reliable.",order
+1801,"Black Tea, extra strong - like my caffeine addiction.",order
+1802,"Chai Tea, extra milky - soft like my underdeveloped skills.",order
+1803,"Green Mint, extra fresh - mask my all-nighter breath.",order
+1804,"Hot Chocolate, extra marshmallows - regression feels good.",order
+1805,"Matcha Latte, extra frothy - extra like my personality.",order
+1806,"Americano, ristretto - short and bitter like my attention span.",order
+1807,"Cappuccino, extra dry - like my will to attend this lecture.",order
+1808,"Latte, extra hazelnut - nutty like my professor.",order
+1809,"Mocha, extra whipped - indulging my inner child.",order
+1810,"White Mocha, extra sweet - compensating for my personality.",order
+1811,"Black Tea, extra lemon - tart like my comeback game.",order
+1812,"Chai Tea, extra spicy - like my hot takes.",order
+1813,"Green Mint, extra green - matching my envy of morning people.",order
+1814,"Hot Chocolate, extra thick - like my skull from all-nighters.",order
+1815,"Matcha Latte, extra aesthetic - do it for the 'gram.",order
+1816,"Americano, iced and bitter - like my ex's new partner.",order
+1817,"Cappuccino, extra foam art - draw a middle finger.",order
+1818,"Latte, extra hot - like my temper during group work.",order
+1819,"Mocha, extra chocolate sauce - stress-eating is valid.",order
+1820,"White Mocha, extra sweet - like my lies about studying.",order
+1821,"Black Tea, extra bergamot - fancy like my procrastination.",order
+1822,"Chai Tea, extra milky - soft like my coding skills.",order
+1823,"Green Mint, extra fresh - cleanse my palate of instant noodles.",order
+1824,"Hot Chocolate, extra whipped - bury my assignment stress.",order
+1825,"Matcha Latte, extra Instagrammable - fake productivity.",order
+1826,"Americano, extra water - dilute my poor life choices.",order
+1827,"Cappuccino, extra cinnamon - spice up this boring Tuesday.",order
+1828,"Latte, extra caramel - sweeten this bitter existence.",order
+1829,"Green Mint, extra fresh - mask my ramen breath.",order
+1830,"Hot Chocolate, extra marshmallows - childhood regression.",order
+1831,"Matcha Latte, extra aesthetic - my followers expect content.",order
+1832,"Americano, black as my future prospects.",order
+1833,"Cappuccino, extra foam - cushion my breakdown.",order
+1834,"Latte, extra sweet - like my lies about understanding this material.",order
+1835,"White Mocha, extra white - ironic for my dark soul.",order
+1836,"Green Mint, extra green - like my envy of functional adults.",order
+1837,"Matcha Latte, extra extra - because basic isn't enough.",order
+1838,"Americano, iced - cool my burning rage at this syllabus.",order
+1839,"Cappuccino, extra dry - like my humor after 3 all-nighters.",order
+1840,"Latte, extra vanilla - sweeten this bitter pill called academia.",order
+1841,"Mocha, extra whipped cream - bury my sorrows in sugar.",order
+1842,"White Mocha, extra caramel - sticky fingers, no shame.",order
+1843,"Black Tea, extra bergamot - fancy like my avoidance techniques.",order
+1844,"Chai Tea, extra ginger - for my broken spirit.",order
+1845,"Green Mint, extra fresh - cleanse my palate of instant coffee.",order
+1846,"Hot Chocolate, extra chocolate - because I'm an adult (theoretically).",order
+1847,"Matcha Latte, extra photogenic - content creation is hard.",order
+1848,"Americano, quad shot - I have bad decisions to make.",order
+1849,"Cappuccino, extra foam art - surprise me, I dare you.",order
+1850,"Latte, extra hazelnut - nutty like my sleep schedule.",order
+1851,"White Mocha, extra sweet - like my fake enthusiasm for 8ams.",order
+1852,"Black Tea, extra lemon - sour like my outlook on group projects.",order
+1853,"Chai Tea, extra spicy - like my temper during finals.",order
+1854,"Green Mint, extra green - match my envy of morning people.",order
+1855,"Americano, long black - like my rap sheet.",order
+1856,"Cappuccino, extra cinnamon - spice up this dull lecture.",order
+1857,"Mocha, extra chocolate - because I deserve it (questionable).",order
+1858,"Green Mint, extra fresh - mask my instant noodle breath.",order
+1859,Don't make that Latte; cancel it.,cancel_order
+1860,I'm canceling my Black Tea order.,cancel_order
+1861,I demand you cancel the Hot Chocolate I just ordered.,cancel_order
+1862,Is it too late to cancel everything I ordered?,cancel_order
+1863,Cancel the last item you added to my order.,cancel_order
+1864,Can you cancel my entire purchase?,cancel_order
+1865,My order for an Americano is canceled.,cancel_order
+1866,Cancel the Cappuccino I spoke for.,cancel_order
+1867,Cancel that Latte before it's made.,cancel_order
+1868,Is it possible to cancel the Black Tea I just ordered?,cancel_order
+1869,I need to cancel the Chai tea now.,cancel_order
+1870,Please cancel my Green Mint order.,cancel_order
+1871,Can you cancel the very last drink I ordered?,cancel_order
+1872,Cancel the Americano I ordered a minute ago.,cancel_order
+1873,Cancel the Latte that was just placed.,cancel_order
+1874,Is there a way to cancel the Mocha I asked for?,cancel_order
+1875,Cancel the White Mocha from my order list.,cancel_order
+1876,I must cancel the Black Tea I requested.,cancel_order
+1877,Cancel that Chai tea that's in progress.,cancel_order
+1878,Can you remove the Americano from my bill?,cancel_order
+1879,Cancel the Black Tea; I've decided against it.,cancel_order
+1880,Cancel the Chai tea; I'm in a hurry.,cancel_order
+1881,I need to cancel the Green Mint; something came up.,cancel_order
+1882, is 7am open, open_time
+1883, any promotion, promotion
