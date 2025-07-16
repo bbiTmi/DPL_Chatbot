@@ -2,3 +2,4 @@ draft/
 logs/
 slot-filling/
 wandb/
+venv/ 

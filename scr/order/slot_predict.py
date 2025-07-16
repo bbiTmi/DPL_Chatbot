@@ -8,11 +8,12 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from word2number import w2n
 
-MODEL_DIR = "model"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DB_PATH = "data/coffee.db"
-SLOT_MODEL_PATH = os.path.join(MODEL_DIR, "slot_model.h5")
-WORD2IDX_PATH = os.path.join(MODEL_DIR, "word2idx.pkl")
-IDX2TAG_PATH = os.path.join(MODEL_DIR, "idx2tag.pkl")
+
+SLOT_MODEL_PATH = os.path.join(BASE_DIR, "model", "slot_model.h5")
+WORD2IDX_PATH = os.path.join(BASE_DIR, "model", "word2idx.pkl")
+IDX2TAG_PATH = os.path.join(BASE_DIR, "model", "idx2tag.pkl")
 MAX_LEN = 30
 
 slot_model = load_model(SLOT_MODEL_PATH)

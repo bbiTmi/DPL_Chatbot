@@ -2,9 +2,9 @@ import random
 import pandas as pd
 from intent.predict import predict_intent
 from order.handle_order import handle_order_message
+import os
 
-RESPONSE_DATA_PATH = "data/response_data.csv"
-response_df = pd.read_csv(RESPONSE_DATA_PATH)
+response_df = pd.read_csv('response_data.csv')
 
 def get_random_response(intent):
     matched = response_df[response_df['intent'] == intent]
