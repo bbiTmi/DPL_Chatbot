@@ -1,1 +1,4 @@
-./wandb
+draft/
+logs/
+slot-filling/
+wandb/

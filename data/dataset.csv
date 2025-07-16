@@ -59,7 +59,6 @@ id,question,intent
 58,Thanks for the help!,thank_you
 59,Thanks!,thank_you
 60,Thank you so much!,thank_you
-61,question,intent
 62,Can I have a Green Mint please?,order
 63,Give me one Latte.,order
 64,Give me one Green Mint.,order
@@ -1656,7 +1655,7 @@ id,question,intent
 1655,That americano? *Disemboweled.* Like my last text.,cancel_order
 1656,Cancel. I’m not paying for mid vibes.,cancel_order
 1657,Scratch it. I’m not drinking that energy.,cancel_order
-1658,That latte? *Annihilated.* Like my attention span.,cancel_order
+1658,That latte? Like my attention span.,cancel_order
 1659,Cancel. I’d rather drink liquid amnesia.,cancel_order
 1660,"Nah, I’m good. That order was a fluke.",cancel_order
 1661,Delete. I’m not drinking bad juju.,cancel_order
@@ -1665,7 +1664,7 @@ id,question,intent
 1664,That drink? *Disintegrated.* Like my social life.,cancel_order
 1665,Nope. That order? *Voided.* Like my ex’s promises.,cancel_order
 1666,Scratch it. I’m not drinking weak sauce.,cancel_order
-1667,That americano? *Neutralized.* Like my emotions.,cancel_order
+1667,That americano? Like my emotions.,cancel_order
 1668,That order? *Banished.* Like my last nerve.,cancel_order
 1669,Nope. That drink? *Incinerated.*,cancel_order
 1670,That mocha? *Obliterated.* Like my self-control.,cancel_order

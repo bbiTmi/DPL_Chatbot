@@ -1,0 +1,241 @@
+question,intent
+"Nah, I’m good. That drink was mid anyway.",cancel_order
+"Cancel my coffee order, please",cancel_order
+Delete. I’m not drinking weak sauce.,cancel_order
+Cancel. I’d rather chew ice.,cancel_order
+"I changed my mind, cancel the order",cancel_order
+Scratch it. I’m not drinking regret.,cancel_order
+I need to cancel my order,cancel_order
+Cancel the Cappuccino I spoke for.,cancel_order
+That order? *Excommunicated.*,cancel_order
+My order for an Americano is canceled.,cancel_order
+Can I add a pastry to my order?,change_order
+"I’ve changed my mind, can I update my order?",change_order
+Can I change if I’m fasting?,change_order
+"I made a mistake, can I change my order?",change_order
+Can I modify a recurring order?,change_order
+Can I change if I’m inside?,change_order
+Can I add caramel drizzle?,change_order
+I’d like to reorder something else,change_order
+"I ordered the wrong item, can I change it?",change_order
+Can I change my order?,change_order
+Is the last call before 9 PM?,close_time
+Can I get coffee at 8:50 PM?,close_time
+Are you open until late every day?,close_time
+When's your final call for drinks?,close_time
+Do you shut down right at 9 PM?,close_time
+Can I visit just before 9 PM?,close_time
+Do you close later for students?,close_time
+Do you allow late-night orders?,close_time
+What time do you close?,close_time
+What’s your last call?,close_time
+"Thanks, I'm off now!",goodbye
+goodbye!,goodbye
+Drive safe!,goodbye
+"goodbye, sweet dreams!",goodbye
+Stay awesome!,goodbye
+Great talking to you!,goodbye
+See you at the library!,goodbye
+Hasta luego!,goodbye
+See you online!,goodbye
+Keep designing!,goodbye
+Nice day for a coffee!,greeting
+Yo!,greeting
+"Hello, lovely day, isn’t it?",greeting
+"Hello, how’s the weather treating you?",greeting
+Good morning!,greeting
+"Hello, is this the coffee place?",greeting
+"Hey, long time no see!",greeting
+"Hi, how’s life?",greeting
+Hey there!,greeting
+Hello coffee assistant!,greeting
+Is it inside a shopping area?,location
+Where can I find your café?,location
+Is your café in Vietnam?,location
+Is it near the admin office?,location
+Is it inside the university?,location
+Is it close to public transport?,location
+Where in Ho Chi Minh City is the shop?,location
+Is it easy to locate your café in FPT?,location
+Is it near the main road?,location
+What’s the address of your shop?,location
+Are pastries available?,menu
+What kinds of coffee and tea do you serve?,menu
+Can you show me the drink options?,menu
+Can I get extra espresso shots?,menu
+What kind of tea do you serve?,menu
+What’s the most popular item?,menu
+What items are currently on the menu?,menu
+Do you have a full menu I can look at?,menu
+Is there a low-acid option?,menu
+Do you serve hot chocolate or matcha?,menu
+Do you open earlier for FPT staff?,open_time
+When does your café start serving?,open_time
+What time do you open?,open_time
+Do you open earlier in summer?,open_time
+Are you open during university breaks?,open_time
+Are you open every day?,open_time
+Can I come right at 8 in the morning?,open_time
+Do you serve breakfast at 8?,open_time
+Do you open earlier for students?,open_time
+Are you open at 8:00 AM?,open_time
+"White Mocha, extra sweet - like my lies about studying.",order
+I'd like to have three cups of Latte,order
+"Yo, hit me with that White Mocha - make it dirty.",order
+Please give me one Green Mint,order
+"Latte, extra foam - I'm feeling bougie today.",order
+"I'd appreciate a hot Hot Chocolate, please",order
+Please give me one Chai Tea,order
+Please give me one Cappuccino,order
+"Americano, black as my soul before coffee.",order
+Can I have a Black Tea please?,order
+What's the price of a cappuccino?,price
+What's the price difference between green mint and black tea?,price
+What's the price for a cup of Mocha?,price
+Can you tell me the cost of Mocha?,price
+I'd like to know the cost of a Green Mint,price
+What's the price of an Americano?,price
+What's the price of Black Tea?,price
+Is a small white mocha cheaper?,price
+What’s the total for two Americanos?,price
+How much for a Green Mint?,price
+Are there time-based promos?,promotion
+Are there any ongoing coffee deals?,promotion
+Do you offer bulk discounts?,promotion
+Is there a senior citizen discount?,promotion
+Is there a special offer available?,promotion
+Is there a loyalty program?,promotion
+Do you offer referral rewards?,promotion
+Do you offer free delivery?,promotion
+Do you offer any price reductions today?,promotion
+Is there a student discount available?,promotion
+Thanks for making it perfect!,thank_you
+Thanks for your kindness!,thank_you
+Thank you for the loyalty discount!,thank_you
+Sincere thanks!,thank_you
+Thank you for the rich mocha!,thank_you
+Thank you for the calming chai!,thank_you
+Thanks for the free napkin!,thank_you
+I appreciate your effort!,thank_you
+Thanks so much!,thank_you
+Thank you!,thank_you
+Hello,greeting
+Hi there,greeting
+Good morning,greeting
+Hey!,greeting
+Goodbye,goodbye
+See you later,goodbye
+Bye bye,goodbye
+Talk to you soon,goodbye
+Thank you so much,thank_you
+Thanks,thank_you
+I appreciate it,thank_you
+You're very kind,thank_you
+I want to order coffee,order
+Can I get a green tea?,order
+I'd like to order a latte,order
+Please get me one iced tea,order
+I want to cancel my order,cancel_order
+Please cancel that drink,cancel_order
+Never mind the coffee,cancel_order
+Cancel the last order please,cancel_order
+Can I change my order?,change_order
+Replace green tea with black tea,change_order
+Change the drink to cappuccino,change_order
+I want something else instead,change_order
+Can I see the menu?,menu
+What's on the menu?,menu
+Do you have any food today?,menu
+Show me the drink list,menu
+Are there any promotions?,promotion
+Do you have discounts?,promotion
+What are today’s offers?,promotion
+Is there a buy one get one deal?,promotion
+How much is the latte?,price
+What's the price of coffee?,price
+Is the matcha expensive?,price
+Can you tell me the price?,price
+Where is the shop?,location
+What's your address?,location
+How do I get to the cafe?,location
+Where can I find you?,location
+What time do you open?,open_time
+When are you open?,open_time
+Opening hours please?,open_time
+When can I come?,open_time
+When do you close?,close_time
+Closing time?,close_time
+At what time do you stop serving?,close_time
+What’s your closing hour?,close_time
+Hello there!,greeting
+"Hey, how’s it going?",greeting
+Hi ya!,greeting
+Good day to you!,greeting
+Heyyyy,greeting
+"Hi, coffee shop!",greeting
+Bye for now,goodbye
+Catch you later,goodbye
+"Gotta go now, bye",goodbye
+See ya soon,goodbye
+Bye!,goodbye
+Talk later,goodbye
+Thanks a ton!,thank_you
+Many thanks!,thank_you
+Thx!,thank_you
+Thank you kindly,thank_you
+Big thanks to you!,thank_you
+Appreciate it a lot,thank_you
+I’ll take a cappuccino please,order
+Can I order a mocha?,order
+"One black coffee, please!",order
+Get me a latte with soy milk,order
+I'd like a caramel macchiato,order
+"Ordering a cold brew, please",order
+"I changed my mind, cancel the drink",cancel_order
+Please remove my order,cancel_order
+Cancel it now,cancel_order
+Don't want it anymore,cancel_order
+Can you cancel my coffee?,cancel_order
+"I made a mistake, cancel that",cancel_order
+Can I switch my order?,change_order
+I'd like to replace my drink,change_order
+Change cappuccino to espresso,change_order
+Swap my tea for coffee,change_order
+Can I update the order?,change_order
+Need to change what I ordered,change_order
+Do you have a drinks list?,menu
+Send me the menu please,menu
+What's on your menu today?,menu
+Can I check what you offer?,menu
+Any food on the menu?,menu
+Where’s your menu?,menu
+Got any deals today?,promotion
+Are there any discounts now?,promotion
+Any specials going on?,promotion
+Promo available today?,promotion
+Can I get a buy 1 get 1?,promotion
+Any happy hour offer?,promotion
+What’s the price of espresso?,price
+How much is a green tea?,price
+Is it expensive here?,price
+What’s the cost of a drink?,price
+Do you charge extra for milk?,price
+Tell me how much that costs,price
+Where are you guys located?,location
+Can I have the address?,location
+What’s your location?,location
+Where’s the nearest store?,location
+How do I reach your shop?,location
+Where do I find you?,location
+When do you start serving?,open_time
+What’s your opening time?,open_time
+What time do you open?,open_time
+Morning hours please?,open_time
+Open at 7am?,open_time
+Do you open early?,open_time
+When do you guys close?,close_time
+Tell me your closing hour,close_time
+What time do you stop taking orders?,close_time
+Shop closes at what time?,close_time
+Until what hour are you open?,close_time
+Closing soon?,close_time
