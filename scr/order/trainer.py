@@ -1,5 +1,3 @@
-import wandb
-from wandb.integration.keras import WandbCallback
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 
 class SlotFillingTrainer:
@@ -11,20 +9,11 @@ class SlotFillingTrainer:
         self.y_val = y_val
         self.project_name = project_name
 
-        # Khởi tạo Weights & Biases
-        wandb.init(project=self.project_name, config={
-            "architecture": model.name if hasattr(model, 'name') else "BiLSTM",
-            "epochs": 50,
-            "batch_size": 32,
-            "embedding_dim": model.layers[0].output_dim if hasattr(model.layers[0], 'output_dim') else 64,
-            "lstm_units": model.layers[1].units if hasattr(model.layers[1], 'units') else 64,
-        })
 
     def train(self, epochs=50, batch_size=32):
         callbacks = [
             EarlyStopping(patience=3, restore_best_weights=True),
-            ModelCheckpoint('slot_best_model.h5', save_best_only=True),
-            WandbCallback(log_weights=True)
+            ModelCheckpoint('slot_best_model.keras', save_best_only=True)
         ]
 
         history = self.model.fit(
@@ -36,9 +25,5 @@ class SlotFillingTrainer:
         )
         return history
 
-    def save_model(self, path='slot_model.h5'):
+    def save_model(self, path='slot_model.keras'):
         self.model.save(path)
-
-        artifact = wandb.Artifact(name='slot-model', type='model')
-        artifact.add_file(path)
-        wandb.log_artifact(artifact)

@@ -1,8 +1,10 @@
 import sqlite3
 from word2number import w2n
 from .slot_predict import predict_slots
+import os
 
-DB_PATH = "data/coffee.db"
+DB_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "coffee.db")
+DB_PATH = os.path.abspath(DB_PATH)
 global pending_orders
 pending_orders = []
 
@@ -73,7 +75,8 @@ def handle_order_message(message):
     if msg in ("done", "complete"):
         if not pending_orders:
             return "You haven't ordered yet! Please choose a drink"
-        save_order()
+        for order in pending_orders:
+            save_order(order["item"], order["qty"])
         response = f"Order completed! Your order: \n{format_orders()}"
         pending_orders.clear()
         return response

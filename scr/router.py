@@ -13,6 +13,11 @@ def get_random_response(intent):
     return random.choice(matched['response'].values)
 
 def route_user_input(text):
+    msg = text.lower().strip()
+
+    if msg in ("done", "complete"):
+        return handle_order_message(text)
+
     intent, conf = predict_intent(text)
 
     print(f"Intent: {intent} (conf = {conf:.2f})")
@@ -21,6 +26,7 @@ def route_user_input(text):
         return handle_order_message(text)
     else:
         return get_random_response(intent)
+
     
 if __name__ == "__main__":
     while True:

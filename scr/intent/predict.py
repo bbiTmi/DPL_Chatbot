@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import TextVectorization
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-MODEL_PATH = os.path.join(BASE_DIR, "model", "final_model.h5")
+MODEL_PATH = os.path.join(BASE_DIR, "model", "final_model.keras")
 VECTOR_PATH = os.path.join(BASE_DIR, "model", "vectorizer.pkl")
 LABEL_ENCODER_PATH = os.path.join(BASE_DIR, "model", "label_encoder.pkl")
 

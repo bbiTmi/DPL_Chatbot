@@ -11,7 +11,7 @@ from word2number import w2n
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DB_PATH = "data/coffee.db"
 
-SLOT_MODEL_PATH = os.path.join(BASE_DIR, "model", "slot_model.h5")
+SLOT_MODEL_PATH = os.path.join(BASE_DIR, "model", "slot_model.keras")
 WORD2IDX_PATH = os.path.join(BASE_DIR, "model", "word2idx.pkl")
 IDX2TAG_PATH = os.path.join(BASE_DIR, "model", "idx2tag.pkl")
 MAX_LEN = 30
