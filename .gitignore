@@ -3,3 +3,4 @@ logs/
 slot-filling/
 wandb/
 venv/ 
+model_draft/

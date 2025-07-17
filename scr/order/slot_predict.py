@@ -7,10 +7,13 @@ import os
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from word2number import w2n
+from keras.layers import TFSMLayer
+
+# MODEL_PATH = "model/best_model_formatted"
+# model = TFSMLayer(MODEL_PATH, call_endpoint="serving_default")
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-DB_PATH = "data/coffee.db"
-
+DB_PATH = os.path.join(BASE_DIR, "data", "coffee.db")
 SLOT_MODEL_PATH = os.path.join(BASE_DIR, "model", "slot_model.keras")
 WORD2IDX_PATH = os.path.join(BASE_DIR, "model", "word2idx.pkl")
 IDX2TAG_PATH = os.path.join(BASE_DIR, "model", "idx2tag.pkl")
@@ -24,12 +27,14 @@ def predict_slots(text):
     tokens = text.strip().split()
     x = [word2idx.get(w, word2idx["UNK"]) for w in tokens]
     x = pad_sequences([x], maxlen=MAX_LEN, padding='post')
+    x = tf.constant(x, dtype=tf.float32)
 
-    preds = slot_model.predict(x)[0]
-    pred_ids = np.argmax(preds, axis=-1)
-
+    y_pred = slot_model(x)  # Tensor shape: (1, max_len, num_tags)
+    y_pred = y_pred.numpy()[0]
+    pred_ids = np.argmax(y_pred, axis=-1)
     slot_tags = [idx2tag[i] for i in pred_ids[:len(tokens)]]
     return list(zip(tokens, slot_tags))
+
 
 def extract_entities(token_slot_pairs):
     item_tokens = []

@@ -5,8 +5,10 @@ import pickle
 import joblib
 import os
 
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+DATA_PATH = os.path.join(BASE_DIR, "data", "dataset.csv")
 os.makedirs('model', exist_ok=True)
-loader = ChatbotIntentDataLoader("../../data/dataset.csv")
+loader = ChatbotIntentDataLoader(DATA_PATH)
 X, y = loader.load_data()
 train_ds, val_ds, test_ds, vectorizer, label_encoder = loader.preprocess(X, y)
 

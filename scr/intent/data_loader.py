@@ -19,18 +19,18 @@ class ChatbotIntentDataLoader:
 
     def load_data(self):
         df = pd.read_csv(self.data_path)
-        X = df['question']
-        y = self.label_encoder.fit_transform(df['intent'])  # Encode text intent to integers
+        X = df['question'].astype(str)  # Đảm bảo là kiểu chuỗi
+        y = self.label_encoder.fit_transform(df['intent'])
         return X, y
 
     def preprocess(self, X, y):
-        self.vectorizer.adapt(X.values)
+        self.vectorizer.adapt(X.astype(str).values)
 
         X_temp, X_test, y_temp, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
         X_train, X_val, y_train, y_val = train_test_split(X_temp, y_temp, test_size=0.2222, random_state=42)
-    
+
         def to_dataset(X_part, y_part):
-            X_vec = self.vectorizer(X_part.values)
+            X_vec = self.vectorizer(tf.convert_to_tensor(X_part.astype(str).values, dtype=tf.string))
             return tf.data.Dataset.from_tensor_slices((X_vec, y_part)) \
                                 .shuffle(1000) \
                                 .batch(self.batch_size) \
